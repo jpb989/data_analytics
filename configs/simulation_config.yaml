@@ -1,0 +1,22 @@
+simulation:
+  random_state: 42
+  num_production_batches: 5
+  batch_size: 500
+
+quality_perturbations:
+  missingness:
+    modes: ["mcar", "mar"]
+    intensities: [0.05, 0.10, 0.20, 0.35, 0.50]
+  outliers:
+    modes: ["gaussian_noise", "cauchy_noise", "scale_multiplier"]
+    multiplier_factors: [2.0, 3.5, 5.0, 10.0]
+  categorical_corruption:
+    unseen_category_rates: [0.05, 0.15, 0.30]
+    typo_rates: [0.05, 0.15]
+
+distribution_drift:
+  covariate_shift:
+    mean_shift_sigmas: [0.5, 1.0, 1.5, 2.5, 3.5]
+  variance_inflation:
+    scale_factors: [1.5, 2.0, 3.0, 5.0]
+  gradual_drift_steps: 5

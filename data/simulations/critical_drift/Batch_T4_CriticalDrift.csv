@@ -1,0 +1,501 @@
+gender,SeniorCitizen,Partner,Dependents,tenure,PhoneService,MultipleLines,InternetService,OnlineSecurity,OnlineBackup,DeviceProtection,TechSupport,StreamingTV,StreamingMovies,Contract,PaperlessBilling,PaymentMethod,MonthlyCharges,TotalCharges,Churn
+Male,0,No,No,52.97128562060126,Yes,Yes,Fiber optic,No,No,No,No,Yes,Yes,Month-to-month,Yes,Electronic check,159.11413543612414,95.45,1
+Male,0,No,Yes,67.97128562060126,Yes,Yes,DSL,Yes,Yes,No,No,No,Yes,Month-to-month,Yes,Electronic check,132.76413543612412,1083.7,0
+Male,0,No,No,57.97128562060126,Yes,No,Fiber optic,No,No,No,No,Yes,No,Month-to-month,Yes,Credit card (automatic),144.16413543612413,463.05,1
+Female,0,No,No,52.97128562060126,Yes,No,Fiber optic,No,No,Yes,No,No,No,Month-to-month,No,Electronic check,138.96413543612414,75.3,1
+Male,1,No,No,60.97128562060126,Yes,No,DSL,No,No,No,Yes,No,No,Month-to-month,No,Mailed check,112.86413543612414,447.9,0
+Male,0,No,No,92.97128562060126,Yes,No,Fiber optic,No,No,No,Yes,No,No,NEW_FLEX_PLAN,Yes,Electronic check,137.91413543612413,3089.1,0
+Female,0,Yes,Yes,54.97128562060126,Yes,No,Fiber optic,No,Yes,No,Yes,No,No,Month-to-month,Yes,Electronic check,143.66413543612413,241.3,0
+Male,0,No,No,58.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,Yes,Mailed check,83.06413543612413,168.65,0
+Male,0,Yes,No,82.97128562060126,Yes,Yes,Fiber optic,Yes,Yes,No,Yes,No,No,Month-to-month,Yes,Credit card (automatic),154.21413543612414,2929.75,0
+Male,0,No,No,86.97128562060126,Yes,No,DSL,Yes,Yes,Yes,No,No,No,One year,No,Mailed check,124.86413543612414,2021.2,0
+Male,0,Yes,Yes,68.97128562060126,No,No phone service,DSL,Yes,No,Yes,No,Yes,No,One year,No,Credit card (automatic),108.11413543612414,792.15,0
+Male,0,No,No,57.97128562060126,Yes,No,Fiber optic,No,Yes,No,No,No,Yes,Month-to-month,Yes,Electronic check,148.06413543612413,556.35,1
+Male,0,Yes,No,54.97128562060126,No,No phone service,DSL,No,No,No,No,No,Yes,Month-to-month,Yes,Electronic check,98.81413543612413,99.75,1
+Male,0,No,No,104.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Two year,No,Credit card (automatic),83.16413543612413,1050.5,0
+Female,0,Yes,Yes,121.97128562060126,Yes,Yes,Fiber optic,Yes,Yes,Yes,Yes,Yes,Yes,NEW_FLEX_PLAN,Yes,Credit card (automatic),178.81413543612413,8250.0,0
+Female,0,Yes,Yes,103.97128562060126,Yes,Yes,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,NEW_FLEX_PLAN,Yes,Bank transfer (automatic),88.71413543612414,1270.25,0
+Male,0,No,No,61.97128562060126,Yes,No,Fiber optic,No,No,Yes,No,Yes,Yes,Month-to-month,Yes,Electronic check,158.56413543612413,1048.85,1
+Male,0,Yes,Yes,109.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,One year,Yes,Electronic check,83.21413543612414,1108.8,0
+Male,0,Yes,Yes,52.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,One year,Yes,Electronic check,83.86413543612413,20.2,0
+Female,0,No,Yes,99.97128562060126,No,No phone service,DSL,No,Yes,Yes,No,No,Yes,NEW_FLEX_PLAN,No,Credit card (automatic),109.21413543612414,2108.35,0
+Male,0,No,Yes,113.97128562060126,Yes,Yes,Fiber optic,No,No,Yes,Yes,Yes,Yes,Two year,Yes,Electronic check,167.71413543612414,6590.5,0
+Female,0,No,Yes,65.97128562060126,Yes,No,DSL,No,No,Yes,No,Yes,No,Month-to-month,Yes,Credit card (automatic),123.46413543612414,824.85,0
+Male,0,No,No,52.97128562060126,Yes,Yes,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Mailed check,137.91413543612413,74.25,1
+Male,0,Yes,No,122.97128562060126,Yes,Yes,Fiber optic,Yes,No,Yes,Yes,Yes,Yes,Two year,Yes,Credit card (automatic),172.21413543612414,7616.0,0
+Male,0,Yes,No,111.97128562060126,Yes,No,Fiber optic,No,Yes,No,No,Yes,Yes,One year,Yes,Electronic check,158.06413543612413,5610.25,1
+Male,0,Yes,Yes,68.97128562060126,Yes,No,Fiber optic,No,No,No,No,Yes,No,Month-to-month,No,Electronic check,144.51413543612412,1400.85,1
+Male,0,Yes,No,114.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Two year,No,Mailed check,82.91413543612413,1237.65,0
+Female,0,No,No,123.97128562060126,Yes,Yes,DSL,No,Yes,Yes,Yes,Yes,Yes,Two year,No,Bank transfer (automatic),150.26413543612412,6350.5,0
+Female,1,No,No,97.97128562060126,Yes,No,Fiber optic,No,Yes,Yes,No,Yes,No,NEW_FLEX_PLAN,Yes,Bank transfer (automatic),154.96413543612414,4126.35,0
+Male,0,No,Yes,64.97128562060126,Yes,No,Fiber optic,No,No,No,No,Yes,No,Month-to-month,Yes,Credit card (automatic),141.96413543612414,1033.95,0
+Female,1,No,No,55.97128562060126,Yes,Yes,Fiber optic,No,No,Yes,No,No,Yes,Month-to-month,Yes,Electronic check,152.51413543612412,372.45,1
+Male,0,No,No,75.97128562060126,Yes,Yes,Fiber optic,No,No,Yes,No,Yes,No,Month-to-month,Yes,Mailed check,153.51413543612412,2165.05,1
+Male,0,No,Yes,80.97128562060126,No,No phone service,DSL,Yes,Yes,Yes,Yes,No,No,Month-to-month,Yes,Mailed check,108.66413543612413,1242.45,0
+Male,0,No,No,117.97128562060126,Yes,Yes,DSL,Yes,Yes,Yes,Yes,No,No,Two year,No,Bank transfer (automatic),132.41413543612413,4447.55,0
+Female,0,No,No,53.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Mailed check,84.31413543612413,38.7,1
+Male,0,Yes,No,69.97128562060126,Yes,No,Fiber optic,No,No,Yes,Yes,No,No,Month-to-month,No,Electronic check,141.86413543612414,1468.75,0
+Female,0,Yes,Yes,99.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Two year,No,Mailed check,83.21413543612414,883.35,0
+Female,1,Yes,No,52.97128562060126,Yes,No,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Mailed check,134.11413543612414,70.45,1
+Female,1,No,No,59.97128562060126,Yes,Yes,Fiber optic,No,No,No,No,No,Yes,Month-to-month,No,Electronic check,148.86413543612414,695.75,0
+Male,0,Yes,No,54.97128562060126,Yes,No,Fiber optic,No,No,No,No,No,No,NEW_FLEX_PLAN,Yes,Electronic check,133.96413543612414,208.85,1
+Female,0,Yes,Yes,57.97128562060126,Yes,No,DSL,No,No,No,No,No,No,Month-to-month,No,Mailed check,109.16413543612413,285.2,0
+Male,0,No,No,69.97128562060126,Yes,Yes,Fiber optic,No,No,Yes,No,Yes,No,One year,Yes,Credit card (automatic),153.26413543612412,1633.0,0
+Female,1,No,No,110.97128562060126,Yes,Yes,Fiber optic,No,No,Yes,No,Yes,Yes,One year,Yes,Electronic check,163.16413543612413,5890.0,0
+Male,0,Yes,No,56.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Mailed check,83.01413543612414,126.05,1
+Female,0,Yes,Yes,64.97128562060126,Yes,No,Fiber optic,No,No,No,No,Yes,Yes,Month-to-month,No,Electronic check,152.01413543612412,1222.8,1
+Female,0,No,No,91.97128562060126,Yes,Yes,DSL,No,No,Yes,Yes,Yes,Yes,One year,Yes,Mailed check,144.41413543612413,3208.65,0
+Female,0,Yes,Yes,69.97128562060126,Yes,Yes,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,NEW_FLEX_PLAN,Yes,Credit card (automatic),88.31413543612413,471.35,0
+Female,0,Yes,No,63.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Two year,Yes,Electronic check,83.71413543612414,264.55,0
+Female,0,No,No,52.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Credit card (automatic),83.96413543612414,20.3,0
+Male,0,Yes,Yes,93.97128562060126,Yes,No,DSL,Yes,No,No,Yes,No,Yes,One year,No,Credit card (automatic),127.36413543612414,2763.35,0
+Male,0,No,No,113.97128562060126,Yes,Yes,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Two year,No,Bank transfer (automatic),87.06413543612413,1429.65,0
+Male,0,No,No,52.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Mailed check,83.96413543612414,20.3,0
+Female,0,No,No,52.97128562060126,Yes,No,Fiber optic,No,No,Yes,No,No,No,Month-to-month,No,Electronic check,138.96413543612414,75.3,1
+Female,0,Yes,Yes,51.97128562060126,No,No phone service,DSL,Yes,Yes,Yes,Yes,Yes,No,Two year,No,Credit card (automatic),119.71413543612414,0.0,0
+Male,0,No,No,52.97128562060126,Yes,No,DSL,No,No,No,No,No,No,Month-to-month,Yes,Mailed check,109.46413543612414,45.8,0
+Male,0,Yes,Yes,115.97128562060126,Yes,Yes,Fiber optic,Yes,No,Yes,No,No,Yes,Two year,No,Bank transfer (automatic),157.06413543612413,5822.3,0
+Female,0,Yes,Yes,105.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,NEW_FLEX_PLAN,Yes,Bank transfer (automatic),84.01413543612414,1092.35,0
+Male,0,Yes,Yes,56.97128562060126,Yes,No,Fiber optic,Yes,No,Yes,No,No,Yes,NEW_FLEX_PLAN,Yes,Mailed check,154.01413543612412,434.5,0
+Male,0,No,No,120.97128562060126,Yes,Yes,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Two year,No,Bank transfer (automatic),87.61413543612413,1713.1,0
+Male,0,No,No,52.97128562060126,Yes,Yes,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Mailed check,137.91413543612413,74.25,1
+Male,1,No,No,96.97128562060126,Yes,No,DSL,Yes,No,Yes,No,No,Yes,One year,No,Credit card (automatic),126.36413543612414,2791.5,1
+Male,0,Yes,Yes,119.97128562060126,Yes,Yes,Fiber optic,Yes,Yes,Yes,Yes,Yes,Yes,Two year,Yes,Bank transfer (automatic),178.36413543612414,7849.85,0
+Male,0,No,No,105.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,NEW_FLEX_PLAN,No,Mailed check,83.66413543612413,1149.65,0
+Female,0,No,No,56.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,NEW_FLEX_PLAN,Yes,Credit card (automatic),83.31413543612413,92.05,0
+Male,0,Yes,Yes,95.97128562060126,Yes,No,DSL,No,Yes,Yes,Yes,No,No,Month-to-month,Yes,Mailed check,125.56413543612413,2924.05,0
+Male,0,No,No,58.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,Yes,Mailed check,83.06413543612413,168.65,0
+Female,0,No,No,66.97128562060126,Yes,No,DSL,No,No,Yes,No,No,Yes,Month-to-month,Yes,Electronic check,123.11413543612414,892.65,1
+Female,0,Yes,Yes,52.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,Yes,Mailed check,83.06413543612413,19.4,0
+Male,0,Yes,Yes,123.97128562060126,Yes,Yes,Fiber optic,Yes,Yes,No,Yes,Yes,Yes,Two year,Yes,Credit card (automatic),171.36413543612414,7919.8,0
+Male,1,No,No,81.97128562060126,Yes,Yes,Fiber optic,Yes,No,No,No,No,Yes,Month-to-month,Yes,Credit card (automatic),154.16413543612413,2595.85,0
+Female,0,No,No,62.97128562060126,Yes,No,DSL,Yes,No,No,No,No,No,Month-to-month,No,Credit card (automatic),112.21413543612414,501.0,1
+Female,0,Yes,Yes,106.97128562060126,Yes,Yes,Fiber optic,Yes,No,No,No,Yes,Yes,One year,No,Mailed check,164.56413543612413,5448.6,0
+Female,0,No,Yes,64.97128562060126,No,No phone service,DSL,No,Yes,No,No,No,No,Month-to-month,No,Electronic check,93.81413543612413,382.2,0
+Female,1,Yes,No,101.97128562060126,Yes,Yes,Fiber optic,No,Yes,Yes,No,Yes,No,Month-to-month,Yes,Electronic check,158.71413543612414,4888.7,1
+Male,0,No,No,102.97128562060126,Yes,Yes,Fiber optic,No,No,No,No,No,Yes,Month-to-month,No,Bank transfer (automatic),147.06413543612413,4149.45,0
+Female,0,Yes,Yes,112.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,Yes,Mailed check,83.06413543612413,1182.55,1
+Male,0,Yes,No,118.97128562060126,Yes,Yes,DSL,Yes,Yes,Yes,Yes,No,No,NEW_FLEX_PLAN,No,Credit card (automatic),134.56413543612413,4677.1,0
+Male,0,Yes,Yes,69.97128562060126,Yes,No,DSL,No,No,Yes,No,No,Yes,Month-to-month,No,Electronic check,121.11413543612414,990.85,1
+Male,0,No,No,58.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,Yes,Mailed check,83.06413543612413,168.65,0
+Male,0,No,No,52.97128562060126,Yes,No,DSL,No,Yes,No,No,No,No,Month-to-month,Yes,Mailed check,113.81413543612413,50.15,0
+Male,1,Yes,No,94.97128562060126,Yes,No,Fiber optic,No,Yes,Yes,No,Yes,Yes,One year,Yes,Bank transfer (automatic),164.21413543612414,4304.0,0
+Male,0,No,No,111.97128562060126,Yes,Yes,Fiber optic,Yes,Yes,Yes,Yes,Yes,Yes,One year,Yes,Credit card (automatic),180.26413543612412,7049.5,0
+Male,0,Yes,Yes,119.97128562060126,Yes,Yes,Fiber optic,Yes,Yes,Yes,Yes,Yes,Yes,Two year,Yes,Bank transfer (automatic),178.36413543612414,7849.85,0
+Female,0,No,No,81.97128562060126,Yes,No,DSL,Yes,No,No,No,No,No,Month-to-month,Yes,Mailed check,112.46413543612414,1536.75,0
+Female,0,No,No,59.97128562060126,Yes,Yes,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Electronic check,137.16413543612413,632.2,0
+Female,0,Yes,No,54.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,Yes,Mailed check,83.26413543612414,55.25,0
+Male,0,Yes,Yes,112.97128562060126,Yes,No,Fiber optic,No,Yes,No,Yes,Yes,Yes,NEW_FLEX_PLAN,Yes,Bank transfer (automatic),162.11413543612414,6145.2,0
+Male,0,No,No,101.97128562060126,Yes,Yes,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,NEW_FLEX_PLAN,No,Bank transfer (automatic),88.56413543612413,1195.25,0
+Male,1,No,No,60.97128562060126,Yes,No,DSL,No,No,No,Yes,No,No,NEW_FLEX_PLAN,No,Mailed check,112.86413543612414,447.9,0
+Male,0,No,No,118.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,NEW_FLEX_PLAN,No,Bank transfer (automatic),84.16413543612413,1430.95,0
+Female,1,No,No,81.97128562060126,Yes,Yes,Fiber optic,Yes,Yes,Yes,No,No,No,NEW_FLEX_PLAN,No,Credit card (automatic),155.36413543612414,2758.15,1
+Female,0,Yes,No,100.97128562060126,No,No phone service,DSL,Yes,No,No,No,Yes,No,Month-to-month,No,Bank transfer (automatic),104.31413543612413,2070.75,0
+Male,0,No,No,57.97128562060126,Yes,No,DSL,No,No,No,Yes,No,No,NEW_FLEX_PLAN,No,Mailed check,113.71413543612414,288.35,0
+Female,0,No,No,66.97128562060126,Yes,Yes,DSL,No,No,No,No,No,No,Month-to-month,Yes,Mailed check,112.46413543612414,720.1,0
+Male,0,No,No,54.97128562060126,Yes,No,DSL,No,No,No,Yes,No,No,Month-to-month,Yes,Mailed check,113.91413543612413,152.3,0
+Male,0,No,No,60.97128562060126,No,No phone service,DSL,Yes,Yes,Yes,No,No,No,One year,No,Mailed check,103.21413543612414,373.0,0
+Female,0,Yes,No,71.97128562060126,No,No phone service,DSL,No,No,No,No,No,No,Month-to-month,Yes,Electronic check,88.11413543612413,482.8,1
+Male,0,Yes,Yes,73.97128562060126,Yes,No,DSL,Yes,No,Yes,Yes,Yes,No,NEW_FLEX_PLAN,Yes,Bank transfer (automatic),131.16413543612413,1544.05,1
+Female,0,No,No,55.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,NEW_FLEX_PLAN,No,Bank transfer (automatic),84.61413543612413,85.5,1
+Male,0,No,No,52.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,NEW_FLEX_PLAN,No,Mailed check,83.41413543612413,19.75,0
+Female,0,No,No,61.97128562060126,No,No phone service,DSL,Yes,No,No,No,No,No,NEW_FLEX_PLAN,No,Mailed check,93.41413543612413,301.9,0
+Female,0,No,No,63.97128562060126,Yes,Yes,DSL,No,No,No,Yes,Yes,Yes,One year,No,Mailed check,137.71413543612414,872.65,1
+Female,0,No,No,111.97128562060126,Yes,Yes,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,NEW_FLEX_PLAN,No,Mailed check,88.66413543612413,1505.05,0
+Female,0,Yes,No,80.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,NEW_FLEX_PLAN,Yes,Mailed check,83.21413543612414,521.8,0
+Male,1,No,No,96.97128562060126,Yes,No,DSL,Yes,No,Yes,No,No,Yes,NEW_FLEX_PLAN,No,Credit card (automatic),126.36413543612414,2791.5,1
+Male,0,No,No,54.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Mailed check,83.51413543612414,64.55,1
+Male,0,Yes,Yes,79.97128562060126,Yes,Yes,Fiber optic,Yes,Yes,No,No,Yes,Yes,One year,No,Electronic check,169.76413543612412,2847.4,1
+Male,0,No,Yes,67.97128562060126,Yes,Yes,DSL,Yes,Yes,No,No,No,Yes,Month-to-month,Yes,Electronic check,132.76413543612412,1083.7,0
+Male,0,No,No,52.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Mailed check,83.71413543612414,20.05,0
+Female,0,Yes,Yes,59.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Two year,No,Mailed check,82.71413543612414,201.7,0
+Female,0,Yes,No,123.97128562060126,Yes,Yes,DSL,Yes,Yes,Yes,No,Yes,Yes,NEW_FLEX_PLAN,Yes,Credit card (automatic),146.31413543612413,5919.35,0
+Female,0,No,No,87.97128562060126,Yes,Yes,Fiber optic,No,Yes,Yes,No,Yes,Yes,One year,Yes,Bank transfer (automatic),168.46413543612414,3886.45,0
+Female,0,No,No,63.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Mailed check,83.96413543612414,246.7,0
+Male,0,Yes,Yes,120.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,NEW_FLEX_PLAN,Yes,Credit card (automatic),84.21413543612414,1403.1,0
+Female,0,Yes,Yes,99.97128562060126,Yes,Yes,Fiber optic,Yes,Yes,No,No,Yes,Yes,Month-to-month,Yes,Credit card (automatic),168.91413543612413,4997.5,0
+Female,0,Yes,No,114.97128562060126,Yes,Yes,Fiber optic,No,No,No,Yes,No,No,One year,Yes,Credit card (automatic),144.86413543612414,4965.1,0
+Male,0,No,Yes,56.97128562060126,Yes,No,DSL,No,No,No,Yes,No,No,NEW_FLEX_PLAN,Yes,Bank transfer (automatic),112.31413543612413,235.2,0
+Male,0,No,No,96.97128562060126,No,No phone service,DSL,Yes,No,Yes,Yes,No,No,One year,No,Bank transfer (automatic),105.96413543612414,1840.75,0
+Male,0,Yes,No,123.97128562060126,Yes,Yes,Fiber optic,No,Yes,Yes,Yes,Yes,Yes,Two year,Yes,Electronic check,172.06413543612413,7719.5,0
+Female,0,Yes,Yes,106.97128562060126,Yes,Yes,Fiber optic,Yes,No,No,No,Yes,Yes,One year,No,Mailed check,164.56413543612413,5448.6,0
+Male,0,No,No,75.97128562060126,Yes,Yes,Fiber optic,No,No,Yes,No,Yes,No,NEW_FLEX_PLAN,Yes,Mailed check,153.51413543612412,2165.05,1
+Male,1,No,No,81.97128562060126,Yes,Yes,Fiber optic,Yes,No,No,No,No,Yes,Month-to-month,Yes,Credit card (automatic),154.16413543612413,2595.85,0
+Female,0,No,No,99.97128562060126,Yes,Yes,DSL,No,Yes,Yes,Yes,Yes,No,One year,Yes,Bank transfer (automatic),137.51413543612412,3581.4,0
+Female,0,Yes,Yes,57.97128562060126,Yes,Yes,Fiber optic,No,Yes,Yes,No,Yes,No,Month-to-month,Yes,Mailed check,157.71413543612414,518.75,0
+Male,0,Yes,Yes,104.97128562060126,Yes,Yes,Fiber optic,No,Yes,Yes,No,Yes,Yes,One year,Yes,Electronic check,168.91413543612413,5576.3,0
+Female,0,No,No,76.97128562060126,Yes,Yes,Fiber optic,No,Yes,Yes,Yes,Yes,Yes,Two year,No,Electronic check,172.56413543612413,2809.05,0
+Male,0,No,No,59.97128562060126,Yes,No,DSL,Yes,No,Yes,No,No,Yes,Month-to-month,Yes,Electronic check,130.36413543612414,579.0,0
+Male,0,No,No,88.97128562060126,Yes,Yes,DSL,Yes,Yes,Yes,Yes,No,No,One year,No,Electronic check,131.11413543612414,2443.3,0
+Male,0,Yes,No,88.97128562060126,Yes,Yes,DSL,Yes,No,Yes,No,Yes,Yes,NEW_FLEX_PLAN,No,Mailed check,142.91413543612413,2911.8,0
+Male,0,No,No,62.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Mailed check,84.01413543612414,215.25,0
+Female,0,Yes,No,122.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Two year,No,Mailed check,83.26413543612414,1416.5,0
+Female,0,Yes,Yes,64.97128562060126,Yes,Yes,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Two year,Yes,Bank transfer (automatic),88.66413543612413,332.5,0
+Male,0,Yes,Yes,121.97128562060126,Yes,Yes,Fiber optic,Yes,Yes,No,No,Yes,Yes,Month-to-month,Yes,Electronic check,169.71413543612414,7554.05,0
+Male,0,No,No,80.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,One year,No,Mailed check,82.76413543612414,529.5,0
+Male,0,Yes,Yes,68.97128562060126,Yes,No,Fiber optic,No,No,No,No,Yes,No,NEW_FLEX_PLAN,No,Electronic check,144.51413543612412,1400.85,1
+Female,0,Yes,No,103.97128562060126,Yes,Yes,Fiber optic,No,Yes,No,Yes,Yes,Yes,Month-to-month,Yes,Credit card (automatic),166.36413543612414,5138.1,0
+Male,1,Yes,No,91.97128562060126,Yes,No,Fiber optic,Yes,Yes,Yes,Yes,Yes,No,One year,Yes,Credit card (automatic),161.81413543612413,4116.8,0
+Female,0,Yes,No,118.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Two year,No,Mailed check,83.31413543612413,1335.2,0
+Male,0,No,Yes,52.97128562060126,Yes,No,DSL,No,No,No,Yes,No,No,Month-to-month,Yes,Mailed check,113.56413543612413,49.9,1
+Male,0,No,No,105.97128562060126,Yes,No,Fiber optic,Yes,No,Yes,No,Yes,No,Month-to-month,No,Mailed check,153.46413543612414,4667.0,0
+Male,0,No,Yes,52.97128562060126,Yes,No,Fiber optic,No,No,No,No,No,No,NEW_FLEX_PLAN,Yes,Electronic check,135.31413543612413,71.65,1
+Female,0,Yes,No,120.97128562060126,Yes,No,Fiber optic,No,Yes,No,No,Yes,Yes,One year,Yes,Credit card (automatic),159.31413543612413,6744.2,0
+Male,0,No,No,52.97128562060126,Yes,No,DSL,No,No,No,No,No,No,Month-to-month,No,Mailed check,109.26413543612414,45.6,0
+Female,1,No,No,71.97128562060126,Yes,Yes,Fiber optic,Yes,No,No,No,No,No,Month-to-month,Yes,Electronic check,142.81413543612413,1520.9,1
+Male,0,Yes,Yes,107.97128562060126,Yes,Yes,Fiber optic,Yes,Yes,Yes,Yes,Yes,Yes,NEW_FLEX_PLAN,No,Mailed check,179.51413543612412,6567.9,0
+Female,0,Yes,Yes,76.97128562060126,Yes,No,Fiber optic,No,Yes,Yes,No,Yes,No,Month-to-month,Yes,Bank transfer (automatic),152.81413543612413,2257.75,1
+Male,0,No,No,61.97128562060126,Yes,No,Fiber optic,No,No,Yes,No,Yes,Yes,Month-to-month,Yes,Electronic check,158.56413543612413,1048.85,1
+Male,0,No,No,55.97128562060126,No,No phone service,DSL,No,No,No,Yes,No,No,Month-to-month,No,Electronic check,94.16413543612413,118.4,0
+Male,0,Yes,Yes,68.97128562060126,Yes,No,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Electronic check,132.66413543612413,1149.65,1
+Female,0,No,No,53.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Mailed check,83.61413543612413,38.15,0
+Male,0,No,No,69.97128562060126,Yes,Yes,DSL,Yes,No,Yes,No,Yes,No,NEW_FLEX_PLAN,No,Mailed check,133.16413543612413,1199.4,0
+Female,0,No,Yes,53.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,One year,No,Bank transfer (automatic),84.16413543612413,38.25,0
+Male,0,Yes,Yes,72.97128562060126,Yes,Yes,DSL,Yes,Yes,No,Yes,Yes,No,One year,No,Mailed check,141.16413543612413,1625.0,1
+Female,0,No,No,118.97128562060126,No,No phone service,DSL,No,No,Yes,Yes,Yes,Yes,Month-to-month,Yes,Credit card (automatic),117.06413543612413,3579.15,0
+Female,0,Yes,Yes,112.97128562060126,Yes,Yes,DSL,Yes,Yes,Yes,Yes,Yes,Yes,Two year,No,Mailed check,151.76413543612412,5526.75,0
+Female,0,Yes,No,105.97128562060126,Yes,Yes,Fiber optic,No,Yes,Yes,Yes,Yes,Yes,NEW_FLEX_PLAN,No,Electronic check,174.01413543612412,5893.15,1
+Male,0,No,No,87.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,One year,Yes,Credit card (automatic),84.01413543612414,695.85,0
+Female,0,Yes,Yes,57.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,One year,No,Mailed check,83.36413543612413,94.45,0
+Female,0,Yes,Yes,123.97128562060126,Yes,Yes,Fiber optic,Yes,Yes,Yes,Yes,Yes,Yes,Two year,Yes,Credit card (automatic),180.46413543612414,8456.75,0
+Male,0,No,No,55.97128562060126,Yes,Yes,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Electronic check,138.01413543612412,265.35,1
+Male,0,No,Yes,70.97128562060126,Yes,Yes,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,Yes,Credit card (automatic),87.76413543612414,439.2,0
+Male,0,No,No,54.97128562060126,Yes,No,Fiber optic,No,Yes,Yes,No,No,Yes,Month-to-month,No,Electronic check,154.06413543612413,268.45,0
+Male,1,Yes,No,68.97128562060126,Yes,No,Fiber optic,No,Yes,No,No,No,No,Month-to-month,Yes,Electronic check,140.11413543612414,1233.4,1
+Female,0,Yes,Yes,78.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,One year,Yes,Mailed check,84.21413543612414,583.3,0
+Male,0,No,No,113.97128562060126,Yes,Yes,Fiber optic,Yes,Yes,No,No,No,Yes,NEW_FLEX_PLAN,Yes,Bank transfer (automatic),155.96413543612414,5731.45,0
+Male,1,Yes,No,116.97128562060126,Yes,Yes,Fiber optic,Yes,No,No,No,Yes,Yes,NEW_FLEX_PLAN,Yes,Electronic check,164.41413543612413,6674.65,0
+Male,0,No,No,60.97128562060126,Yes,No,DSL,Yes,No,Yes,Yes,No,Yes,Month-to-month,Yes,Bank transfer (automatic),131.91413543612413,576.95,0
+Female,0,Yes,Yes,68.97128562060126,Yes,No,Fiber optic,Yes,No,No,Yes,Yes,No,NEW_FLEX_PLAN,No,Electronic check,155.51413543612412,1574.45,1
+Female,0,No,No,59.97128562060126,Yes,Yes,Fiber optic,No,No,No,No,Yes,No,NEW_FLEX_PLAN,Yes,Electronic check,150.71413543612414,762.1,1
+Male,0,Yes,No,73.97128562060126,Yes,No,DSL,Yes,No,No,No,Yes,No,One year,Yes,Bank transfer (automatic),123.41413543612413,1374.35,0
+Female,0,No,No,56.97128562060126,Yes,No,Fiber optic,No,Yes,No,Yes,No,Yes,NEW_FLEX_PLAN,Yes,Electronic check,153.01413543612412,461.7,1
+Female,0,Yes,Yes,84.97128562060126,Yes,No,Fiber optic,No,No,Yes,No,Yes,Yes,One year,Yes,Electronic check,157.46413543612414,3124.5,1
+Female,0,Yes,Yes,79.97128562060126,Yes,No,Fiber optic,No,No,No,No,Yes,Yes,NEW_FLEX_PLAN,Yes,Bank transfer (automatic),153.76413543612412,2598.95,1
+Male,0,Yes,No,122.97128562060126,Yes,Yes,DSL,Yes,Yes,Yes,Yes,No,Yes,Two year,Yes,Mailed check,143.76413543612412,5585.4,0
+Male,0,No,No,55.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,One year,No,Mailed check,83.61413543612413,68.2,0
+Male,0,Yes,Yes,80.97128562060126,Yes,No,DSL,Yes,No,No,No,No,Yes,Month-to-month,Yes,Mailed check,123.86413543612414,1834.15,0
+Female,0,Yes,Yes,119.97128562060126,Yes,Yes,Fiber optic,Yes,No,Yes,Yes,Yes,Yes,NEW_FLEX_PLAN,Yes,Bank transfer (automatic),172.71413543612414,7508.55,0
+Male,0,Yes,Yes,102.97128562060126,Yes,Yes,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Two year,Yes,Mailed check,88.61413543612413,1222.25,0
+Male,0,No,No,64.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,One year,No,Mailed check,83.11413543612413,270.2,0
+Male,0,Yes,No,110.97128562060126,Yes,Yes,Fiber optic,No,No,No,No,No,Yes,One year,No,Electronic check,149.21413543612414,5084.65,1
+Male,0,No,No,52.97128562060126,Yes,No,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Electronic check,133.56413543612413,69.9,1
+Male,0,Yes,Yes,68.97128562060126,Yes,Yes,DSL,Yes,No,No,Yes,No,No,One year,Yes,Mailed check,125.76413543612414,1096.65,0
+Female,0,No,No,107.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,NEW_FLEX_PLAN,Yes,Bank transfer (automatic),83.21413543612414,1080.55,0
+Male,0,No,No,85.97128562060126,Yes,Yes,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Two year,No,Bank transfer (automatic),89.76413543612414,980.35,0
+Male,1,Yes,No,69.97128562060126,Yes,No,Fiber optic,No,No,No,No,No,Yes,Month-to-month,No,Electronic check,142.21413543612414,1422.65,1
+Male,0,Yes,No,122.97128562060126,Yes,Yes,DSL,Yes,Yes,Yes,Yes,No,Yes,Two year,Yes,Mailed check,143.76413543612412,5585.4,0
+Female,0,Yes,Yes,123.97128562060126,Yes,Yes,Fiber optic,Yes,Yes,Yes,Yes,Yes,Yes,Two year,Yes,Credit card (automatic),180.46413543612414,8456.75,0
+Male,0,No,No,63.97128562060126,Yes,No,Fiber optic,No,No,Yes,No,Yes,Yes,One year,No,Electronic check,159.36413543612414,1184.0,0
+Male,0,Yes,Yes,97.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Two year,Yes,Mailed check,83.76413543612414,936.85,0
+Female,0,Yes,No,52.97128562060126,No,No phone service,DSL,No,No,No,No,No,No,NEW_FLEX_PLAN,Yes,Electronic check,88.46413543612414,24.8,1
+Male,0,Yes,No,118.97128562060126,Yes,No,Fiber optic,Yes,Yes,Yes,Yes,Yes,Yes,Two year,Yes,Electronic check,174.71413543612414,7321.05,0
+Male,0,Yes,Yes,123.97128562060126,Yes,Yes,DSL,Yes,Yes,Yes,Yes,No,No,Two year,No,Bank transfer (automatic),133.51413543612412,5102.35,0
+Female,0,No,No,66.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Bank transfer (automatic),83.06413543612413,289.3,1
+Female,0,Yes,Yes,64.97128562060126,Yes,No,Fiber optic,No,No,No,No,Yes,Yes,Month-to-month,No,Electronic check,152.01413543612412,1222.8,1
+Female,0,No,No,56.97128562060126,Yes,No,Fiber optic,No,No,No,Yes,No,Yes,NEW_FLEX_PLAN,Yes,Credit card (automatic),149.06413543612413,425.9,1
+Female,1,No,No,107.97128562060126,Yes,Yes,Fiber optic,No,Yes,Yes,Yes,Yes,Yes,One year,Yes,Electronic check,175.61413543612414,6418.9,1
+Female,0,Yes,No,112.97128562060126,Yes,Yes,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Two year,No,Bank transfer (automatic),88.96413543612414,1554.9,0
+Female,0,Yes,No,93.97128562060126,Yes,Yes,DSL,No,No,No,No,No,No,Month-to-month,Yes,Electronic check,113.91413543612413,2203.65,1
+Female,0,No,Yes,123.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,NEW_FLEX_PLAN,Yes,Mailed check,83.41413543612413,1567.0,0
+Female,0,Yes,Yes,114.97128562060126,Yes,No,DSL,Yes,Yes,Yes,Yes,Yes,No,Two year,No,Credit card (automatic),139.21413543612414,4707.85,0
+Female,0,No,No,52.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Credit card (automatic),83.06413543612413,19.4,0
+Male,1,No,No,103.97128562060126,Yes,Yes,Fiber optic,No,Yes,Yes,Yes,Yes,Yes,NEW_FLEX_PLAN,Yes,Electronic check,174.41413543612413,5832.0,0
+Male,0,No,No,64.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Two year,No,Mailed check,83.41413543612413,265.75,0
+Female,0,No,No,115.97128562060126,Yes,Yes,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,NEW_FLEX_PLAN,No,Mailed check,88.36413543612413,1642.75,0
+Male,1,No,No,53.97128562060126,Yes,No,Fiber optic,No,Yes,No,No,No,No,NEW_FLEX_PLAN,Yes,Electronic check,138.36413543612414,165.4,1
+Male,0,Yes,Yes,96.97128562060126,Yes,No,DSL,Yes,No,No,Yes,No,No,Two year,No,Bank transfer (automatic),118.31413543612413,2553.7,0
+Male,1,Yes,No,99.97128562060126,Yes,Yes,Fiber optic,No,No,Yes,No,No,Yes,Month-to-month,Yes,Credit card (automatic),154.71413543612414,4370.75,0
+Male,0,Yes,Yes,75.97128562060126,Yes,Yes,DSL,Yes,No,No,No,No,No,Month-to-month,No,Electronic check,118.41413543612413,1338.15,1
+Female,0,Yes,Yes,74.97128562060126,Yes,No,Fiber optic,No,Yes,Yes,Yes,No,No,Month-to-month,No,Electronic check,147.46413543612414,1900.25,1
+Male,0,No,No,60.97128562060126,Yes,No,DSL,Yes,No,Yes,Yes,No,Yes,Month-to-month,Yes,Bank transfer (automatic),131.91413543612413,576.95,0
+Male,0,Yes,Yes,76.97128562060126,Yes,No,DSL,Yes,Yes,Yes,No,No,No,One year,Yes,Bank transfer (automatic),125.26413543612414,1611.0,0
+Male,0,No,No,58.97128562060126,Yes,No,Fiber optic,No,No,No,No,No,No,Month-to-month,No,Bank transfer (automatic),132.81413543612413,488.65,0
+Female,0,Yes,No,100.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,One year,No,Bank transfer (automatic),84.11413543612413,900.9,0
+Female,0,Yes,No,75.97128562060126,Yes,Yes,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Credit card (automatic),139.06413543612413,1747.85,1
+Male,0,Yes,Yes,123.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Two year,No,Bank transfer (automatic),83.61413543612413,1322.85,0
+Female,0,Yes,Yes,74.97128562060126,Yes,No,DSL,Yes,Yes,Yes,Yes,No,No,One year,Yes,Mailed check,129.91413543612413,1533.8,0
+Male,0,No,No,80.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,One year,No,Mailed check,82.76413543612414,529.5,0
+Female,0,No,No,66.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Bank transfer (automatic),83.06413543612413,289.3,1
+Male,0,Yes,No,89.97128562060126,Yes,Yes,DSL,No,No,Yes,Yes,No,Yes,NEW_FLEX_PLAN,No,Credit card (automatic),132.66413543612413,2669.45,0
+Male,0,Yes,Yes,58.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,One year,No,Mailed check,84.31413543612413,150.0,0
+Female,0,No,Yes,53.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,One year,No,Bank transfer (automatic),84.16413543612413,38.25,0
+Female,0,Yes,Yes,112.97128562060126,No,No phone service,DSL,Yes,Yes,No,Yes,No,Yes,NEW_FLEX_PLAN,Yes,Bank transfer (automatic),114.36413543612414,3088.75,0
+Female,0,No,No,52.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,NEW_FLEX_PLAN,No,Mailed check,83.21413543612414,19.55,0
+Male,0,No,No,52.97128562060126,Yes,No,DSL,No,No,No,No,No,No,Month-to-month,Yes,Mailed check,109.36413543612414,45.7,1
+Male,1,Yes,No,122.97128562060126,Yes,No,Fiber optic,No,Yes,Yes,Yes,No,Yes,Two year,Yes,Credit card (automatic),159.16413543612413,6707.15,0
+Male,0,Yes,Yes,120.97128562060126,Yes,No,Fiber optic,No,Yes,No,Yes,Yes,No,Two year,Yes,Mailed check,155.81413543612413,6480.9,0
+Female,0,Yes,Yes,84.97128562060126,Yes,Yes,Fiber optic,No,Yes,Yes,Yes,No,No,NEW_FLEX_PLAN,No,Credit card (automatic),152.26413543612412,2888.7,0
+Male,0,No,No,74.97128562060126,Yes,Yes,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Electronic check,138.61413543612414,1710.45,1
+Female,0,No,No,63.97128562060126,Yes,No,DSL,No,No,No,No,No,No,Month-to-month,Yes,Bank transfer (automatic),108.66413543612413,524.35,0
+Female,0,Yes,Yes,120.97128562060126,Yes,Yes,DSL,Yes,No,Yes,Yes,No,No,NEW_FLEX_PLAN,Yes,Credit card (automatic),127.81413543612413,4254.1,0
+Male,0,Yes,Yes,118.97128562060126,Yes,No,DSL,Yes,Yes,Yes,No,Yes,Yes,NEW_FLEX_PLAN,No,Credit card (automatic),145.01413543612412,5398.6,0
+Male,0,Yes,Yes,113.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Two year,No,Credit card (automatic),84.31413543612413,1218.45,0
+Male,0,Yes,Yes,92.97128562060126,Yes,Yes,Fiber optic,No,No,Yes,Yes,Yes,Yes,One year,Yes,Electronic check,166.26413543612412,4213.35,1
+Female,0,No,No,85.97128562060126,Yes,Yes,Fiber optic,Yes,Yes,Yes,No,Yes,Yes,Month-to-month,Yes,Mailed check,173.46413543612414,3587.25,1
+Female,0,No,No,66.97128562060126,Yes,No,DSL,No,No,Yes,No,No,Yes,Month-to-month,Yes,Electronic check,123.11413543612414,892.65,1
+Female,0,Yes,Yes,117.97128562060126,Yes,Yes,DSL,Yes,Yes,Yes,Yes,Yes,Yes,Two year,No,Credit card (automatic),153.56413543612413,5958.85,0
+Male,0,Yes,Yes,77.97128562060126,Yes,No,Fiber optic,No,No,No,No,No,Yes,One year,No,Bank transfer (automatic),142.61413543612414,2034.25,0
+Female,0,No,No,72.97128562060126,Yes,Yes,Fiber optic,No,Yes,No,No,Yes,Yes,Month-to-month,Yes,Credit card (automatic),163.51413543612412,1992.55,0
+Male,0,Yes,Yes,92.97128562060126,Yes,Yes,Fiber optic,No,No,Yes,Yes,Yes,Yes,One year,Yes,Electronic check,166.26413543612412,4213.35,1
+Male,0,No,No,53.97128562060126,Yes,No,Fiber optic,No,No,No,No,No,No,Month-to-month,No,Mailed check,134.36413543612414,129.2,0
+Male,0,Yes,Yes,109.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,One year,Yes,Electronic check,83.21413543612414,1108.8,0
+Female,0,No,No,92.97128562060126,Yes,Yes,DSL,No,Yes,No,No,No,No,One year,Yes,Credit card (automatic),119.96413543612414,2364.0,0
+Female,0,Yes,Yes,112.97128562060126,Yes,Yes,Fiber optic,Yes,Yes,Yes,No,No,Yes,One year,Yes,Credit card (automatic),164.36413543612414,6018.65,0
+Male,0,Yes,Yes,99.97128562060126,Yes,Yes,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Two year,No,Mailed check,87.21413543612414,1173.35,0
+Male,1,Yes,No,112.97128562060126,Yes,Yes,Fiber optic,No,Yes,No,Yes,No,No,One year,Yes,Bank transfer (automatic),149.21413543612414,5251.75,0
+Male,0,Yes,Yes,67.97128562060126,Yes,Yes,DSL,Yes,Yes,No,Yes,Yes,Yes,Month-to-month,No,Electronic check,148.56413543612413,1398.25,0
+Female,0,Yes,Yes,61.97128562060126,Yes,No,DSL,No,Yes,Yes,No,No,Yes,One year,Yes,Mailed check,129.56413543612413,660.05,0
+Male,0,Yes,No,118.97128562060126,Yes,Yes,Fiber optic,No,Yes,No,No,Yes,No,One year,Yes,Bank transfer (automatic),152.06413543612413,5798.3,0
+Male,0,No,No,101.97128562060126,No,No phone service,DSL,Yes,Yes,No,No,No,No,Month-to-month,Yes,Mailed check,98.66413543612413,1782.4,0
+Male,0,Yes,Yes,62.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,Yes,Electronic check,84.11413543612413,250.8,0
+Female,0,No,No,58.97128562060126,Yes,Yes,Fiber optic,No,No,No,No,No,No,NEW_FLEX_PLAN,Yes,Electronic check,139.01413543612412,564.65,0
+Male,0,No,No,57.97128562060126,Yes,No,DSL,No,No,No,Yes,No,No,Month-to-month,No,Mailed check,113.71413543612414,288.35,0
+Female,0,No,No,56.97128562060126,Yes,No,Fiber optic,No,Yes,No,Yes,No,Yes,Month-to-month,Yes,Electronic check,153.01413543612412,461.7,1
+Female,0,No,No,54.97128562060126,Yes,No,Fiber optic,No,No,No,No,Yes,No,Month-to-month,Yes,Electronic check,143.06413543612413,244.65,1
+Male,0,No,No,89.97128562060126,Yes,No,Fiber optic,No,No,No,No,No,No,NEW_FLEX_PLAN,Yes,Bank transfer (automatic),134.11413543612414,2597.6,1
+Female,0,Yes,Yes,61.97128562060126,Yes,No,DSL,No,Yes,Yes,No,No,Yes,One year,Yes,Mailed check,129.56413543612413,660.05,0
+Male,0,No,No,52.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Mailed check,83.06413543612413,19.4,1
+Female,0,No,No,73.97128562060126,Yes,No,DSL,No,Yes,Yes,No,Yes,No,One year,No,Bank transfer (automatic),128.91413543612413,1441.8,0
+Female,0,No,Yes,52.97128562060126,Yes,No,DSL,Yes,No,No,No,No,No,Month-to-month,No,Mailed check,114.86413543612414,51.2,0
+Male,1,Yes,No,120.97128562060126,Yes,Yes,Fiber optic,Yes,Yes,No,No,No,No,Month-to-month,Yes,Credit card (automatic),148.56413543612413,5785.65,0
+Female,0,No,No,66.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,NEW_FLEX_PLAN,No,Bank transfer (automatic),83.06413543612413,289.3,1
+Male,0,No,No,122.97128562060126,Yes,Yes,DSL,Yes,Yes,Yes,Yes,No,Yes,Two year,No,Bank transfer (automatic),144.26413543612412,5708.2,0
+Female,1,No,No,52.97128562060126,Yes,No,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Electronic check,133.61413543612414,69.95,1
+Female,1,No,No,92.97128562060126,Yes,Yes,Fiber optic,Yes,Yes,Yes,No,Yes,Yes,Month-to-month,Yes,Electronic check,176.86413543612414,4689.5,1
+Male,1,Yes,No,69.97128562060126,Yes,No,DSL,Yes,No,No,No,No,Yes,NEW_FLEX_PLAN,Yes,Credit card (automatic),122.76413543612414,1011.05,0
+Male,0,Yes,Yes,104.97128562060126,Yes,No,Fiber optic,No,Yes,No,Yes,Yes,No,Month-to-month,Yes,Electronic check,156.21413543612414,4779.45,0
+Female,0,No,No,52.97128562060126,Yes,No,DSL,No,No,No,No,No,No,Month-to-month,No,Mailed check,108.41413543612413,44.75,0
+Female,0,No,No,52.97128562060126,Yes,No,DSL,Yes,Yes,No,No,No,No,Month-to-month,Yes,Electronic check,118.56413543612413,54.9,1
+Female,0,No,No,54.97128562060126,Yes,Yes,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Electronic check,139.16413543612413,220.6,1
+Female,1,No,No,107.97128562060126,Yes,Yes,Fiber optic,No,Yes,Yes,No,Yes,Yes,One year,Yes,Bank transfer (automatic),168.41413543612413,5510.65,1
+Male,0,Yes,Yes,123.97128562060126,Yes,Yes,Fiber optic,Yes,Yes,Yes,Yes,Yes,Yes,NEW_FLEX_PLAN,Yes,Credit card (automatic),177.71413543612414,8468.2,0
+Male,0,No,No,116.97128562060126,Yes,Yes,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Two year,Yes,Bank transfer (automatic),88.76413543612414,1725.0,0
+Male,0,Yes,No,89.97128562060126,Yes,Yes,DSL,No,No,Yes,Yes,No,Yes,NEW_FLEX_PLAN,No,Credit card (automatic),132.66413543612413,2669.45,0
+Male,0,Yes,Yes,97.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Two year,Yes,Mailed check,83.76413543612414,936.85,0
+Male,0,Yes,Yes,87.97128562060126,Yes,No,DSL,Yes,No,Yes,No,No,Yes,One year,Yes,Credit card (automatic),127.36413543612414,2188.5,0
+Male,0,Yes,Yes,110.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,NEW_FLEX_PLAN,No,Credit card (automatic),82.96413543612414,1192.7,0
+Male,1,No,No,120.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Two year,No,Credit card (automatic),83.96413543612414,1356.3,0
+Female,0,Yes,No,71.97128562060126,No,No phone service,DSL,No,No,No,No,No,No,Month-to-month,Yes,Electronic check,88.11413543612413,482.8,1
+Female,0,Yes,Yes,101.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Two year,No,Credit card (automatic),84.21413543612414,1070.25,0
+Female,0,No,No,108.97128562060126,Yes,Yes,Fiber optic,No,Yes,No,Yes,No,Yes,One year,No,Electronic check,158.36413543612414,5468.95,0
+Male,1,Yes,No,88.97128562060126,Yes,No,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Bank transfer (automatic),135.91413543612413,2575.45,0
+Female,0,No,No,63.97128562060126,Yes,No,Fiber optic,No,No,No,No,No,Yes,Month-to-month,No,Bank transfer (automatic),141.76413543612412,947.3,1
+Female,0,No,No,66.97128562060126,Yes,Yes,DSL,Yes,No,No,No,No,No,Month-to-month,Yes,Mailed check,119.36413543612414,899.8,1
+Female,0,No,No,92.97128562060126,Yes,Yes,DSL,No,Yes,No,No,No,No,One year,Yes,Credit card (automatic),119.96413543612414,2364.0,0
+Female,0,Yes,No,107.97128562060126,Yes,No,Fiber optic,Yes,No,Yes,No,No,No,NEW_FLEX_PLAN,No,Bank transfer (automatic),143.96413543612414,4513.65,0
+Female,0,No,No,52.97128562060126,Yes,No,DSL,Yes,Yes,No,No,No,No,Month-to-month,Yes,Electronic check,118.56413543612413,54.9,1
+Male,0,No,No,122.97128562060126,Yes,Yes,Fiber optic,No,Yes,No,No,No,No,One year,Yes,Credit card (automatic),142.71413543612414,5552.5,0
+Male,0,Yes,Yes,120.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,One year,Yes,Credit card (automatic),84.21413543612414,1403.1,0
+Female,0,Yes,No,73.97128562060126,Yes,No,DSL,No,Yes,Yes,No,No,No,Month-to-month,Yes,Mailed check,118.36413543612414,1178.75,0
+Female,0,Yes,No,73.97128562060126,Yes,No,Fiber optic,No,No,No,No,Yes,No,Month-to-month,Yes,Credit card (automatic),143.66413543612413,1706.45,0
+Male,0,Yes,Yes,96.97128562060126,Yes,No,DSL,Yes,No,No,Yes,No,No,NEW_FLEX_PLAN,No,Bank transfer (automatic),118.31413543612413,2553.7,0
+Female,0,No,No,52.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Credit card (automatic),83.96413543612414,20.3,0
+Male,0,Yes,No,112.97128562060126,Yes,Yes,DSL,No,Yes,Yes,No,Yes,Yes,Two year,No,Bank transfer (automatic),144.56413543612413,4932.5,0
+Female,0,No,No,52.97128562060126,Yes,No,Fiber optic,No,No,Yes,No,No,No,Month-to-month,No,Electronic check,138.96413543612414,75.3,1
+Female,0,Yes,No,123.97128562060126,Yes,Yes,Fiber optic,Yes,Yes,Yes,Yes,No,No,NEW_FLEX_PLAN,Yes,Bank transfer (automatic),157.91413543612413,6849.75,0
+Male,0,Yes,Yes,58.97128562060126,No,No phone service,DSL,Yes,Yes,Yes,No,No,No,Two year,No,Mailed check,102.21413543612414,280.0,0
+Male,0,Yes,No,101.97128562060126,Yes,Yes,Fiber optic,Yes,No,Yes,No,Yes,Yes,One year,Yes,Electronic check,167.61413543612414,5231.3,0
+Male,0,Yes,Yes,120.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,One year,Yes,Credit card (automatic),84.21413543612414,1403.1,0
+Female,0,Yes,No,111.97128562060126,Yes,No,DSL,Yes,Yes,No,Yes,No,No,Two year,No,Bank transfer (automatic),123.51413543612414,3483.45,0
+Male,1,Yes,No,81.97128562060126,Yes,Yes,DSL,No,No,Yes,No,Yes,Yes,Two year,No,Electronic check,138.51413543612412,2181.75,0
+Male,0,No,No,54.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Mailed check,83.51413543612414,64.55,1
+Female,0,No,No,123.97128562060126,Yes,Yes,DSL,No,Yes,Yes,Yes,Yes,Yes,NEW_FLEX_PLAN,No,Bank transfer (automatic),150.26413543612412,6350.5,0
+Male,0,No,No,73.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,One year,No,Credit card (automatic),83.96413543612414,467.15,0
+Male,0,No,No,55.97128562060126,Yes,Yes,Fiber optic,Yes,No,No,No,Yes,No,Month-to-month,No,Electronic check,154.31413543612413,367.95,0
+Female,1,No,No,58.97128562060126,Yes,No,Fiber optic,No,No,No,No,Yes,Yes,Month-to-month,Yes,Electronic check,152.81413543612413,574.35,0
+Female,0,No,No,61.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,Yes,Electronic check,84.86413543612413,222.65,0
+Female,0,Yes,Yes,74.97128562060126,Yes,No,Fiber optic,No,Yes,Yes,Yes,No,No,Month-to-month,No,Electronic check,147.46413543612414,1900.25,1
+Female,0,No,No,52.97128562060126,Yes,No,DSL,No,No,No,No,No,No,Month-to-month,Yes,Mailed check,109.06413543612413,45.4,1
+Male,1,No,No,102.97128562060126,Yes,Yes,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,One year,No,Bank transfer (automatic),88.66413543612413,1260.7,0
+Male,0,No,No,118.97128562060126,Yes,No,DSL,No,No,No,Yes,No,No,NEW_FLEX_PLAN,No,Bank transfer (automatic),114.21413543612414,3260.1,0
+Male,1,Yes,No,69.97128562060126,Yes,No,Fiber optic,No,No,No,No,No,Yes,Month-to-month,No,Electronic check,142.21413543612414,1422.65,1
+Male,0,No,No,120.97128562060126,Yes,Yes,Fiber optic,No,Yes,No,Yes,Yes,Yes,One year,Yes,Bank transfer (automatic),168.86413543612414,7386.05,0
+Female,0,No,No,91.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,NEW_FLEX_PLAN,No,Mailed check,83.81413543612413,804.85,0
+Female,0,Yes,No,114.97128562060126,Yes,Yes,Fiber optic,No,No,No,Yes,No,No,One year,Yes,Credit card (automatic),144.86413543612414,4965.1,0
+Male,0,Yes,Yes,101.97128562060126,Yes,No,Fiber optic,No,Yes,Yes,Yes,Yes,Yes,One year,Yes,Bank transfer (automatic),167.06413543612413,5236.4,0
+Female,0,No,No,59.97128562060126,Yes,Yes,Fiber optic,No,No,No,No,Yes,No,Month-to-month,Yes,Electronic check,150.71413543612414,762.1,1
+Male,0,No,No,123.97128562060126,No,No phone service,DSL,Yes,No,Yes,Yes,Yes,Yes,Two year,Yes,Credit card (automatic),124.86413543612414,4390.25,0
+Male,0,Yes,No,66.97128562060126,Yes,Yes,Fiber optic,No,No,Yes,Yes,Yes,Yes,Month-to-month,Yes,Electronic check,167.11413543612414,1539.8,0
+Female,0,No,No,110.97128562060126,Yes,Yes,DSL,Yes,No,No,Yes,No,Yes,NEW_FLEX_PLAN,No,Bank transfer (automatic),132.36413543612414,4070.95,0
+Female,0,No,No,52.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,Yes,Mailed check,83.16413543612413,19.5,0
+Male,0,Yes,Yes,119.97128562060126,Yes,No,DSL,Yes,Yes,Yes,Yes,No,No,Two year,No,Credit card (automatic),126.31413543612413,4375.8,0
+Male,0,Yes,Yes,71.97128562060126,No,No phone service,DSL,Yes,No,Yes,Yes,No,No,NEW_FLEX_PLAN,Yes,Credit card (automatic),103.06413543612413,825.4,0
+Female,1,No,No,77.97128562060126,Yes,Yes,DSL,No,No,No,Yes,No,Yes,Month-to-month,Yes,Electronic check,129.71413543612414,1652.4,0
+Female,0,Yes,Yes,57.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,One year,No,Mailed check,83.36413543612413,94.45,0
+Female,0,Yes,No,53.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Bank transfer (automatic),83.76413543612414,43.15,0
+Female,0,No,No,54.97128562060126,Yes,No,DSL,No,No,No,No,Yes,No,Month-to-month,Yes,Electronic check,117.86413543612414,140.4,0
+Male,0,No,No,56.97128562060126,Yes,No,Fiber optic,No,No,No,No,No,Yes,Month-to-month,No,Mailed check,142.41413543612413,426.35,0
+Male,0,Yes,Yes,52.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,One year,No,Mailed check,82.46413543612414,18.8,0
+Male,0,No,No,63.97128562060126,Yes,No,Fiber optic,Yes,No,Yes,No,No,No,Month-to-month,No,Bank transfer (automatic),145.36413543612414,858.6,1
+Male,0,No,No,118.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Two year,No,Bank transfer (automatic),84.16413543612413,1430.95,0
+Female,0,No,No,60.97128562060126,Yes,No,Fiber optic,No,No,Yes,No,No,Yes,Month-to-month,Yes,Credit card (automatic),148.96413543612414,781.4,0
+Male,0,No,No,54.97128562060126,Yes,Yes,Fiber optic,No,No,Yes,No,Yes,Yes,Month-to-month,Yes,Electronic check,164.61413543612414,329.95,1
+Female,0,Yes,Yes,96.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,NEW_FLEX_PLAN,Yes,Bank transfer (automatic),83.66413543612413,886.4,0
+Female,0,No,No,63.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,NEW_FLEX_PLAN,No,Mailed check,83.76413543612414,223.6,0
+Female,0,Yes,Yes,104.97128562060126,Yes,No,DSL,No,No,Yes,No,No,Yes,One year,No,Credit card (automatic),124.26413543612414,3297.0,0
+Female,0,Yes,Yes,57.97128562060126,Yes,Yes,Fiber optic,No,Yes,Yes,No,Yes,No,Month-to-month,Yes,Mailed check,157.71413543612414,518.75,0
+Male,0,Yes,Yes,123.97128562060126,Yes,Yes,Fiber optic,Yes,Yes,Yes,Yes,Yes,Yes,Two year,Yes,Credit card (automatic),177.71413543612414,8468.2,0
+Female,0,No,Yes,53.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,One year,No,Bank transfer (automatic),84.16413543612413,38.25,0
+Male,0,Yes,No,112.97128562060126,Yes,Yes,DSL,No,Yes,Yes,No,Yes,Yes,One year,Yes,Electronic check,143.46413543612414,4914.8,0
+Male,0,Yes,No,112.97128562060126,Yes,Yes,DSL,No,Yes,Yes,No,Yes,Yes,Two year,No,Bank transfer (automatic),144.56413543612413,4932.5,0
+Male,0,No,No,54.97128562060126,Yes,No,Fiber optic,No,No,No,No,No,No,NEW_FLEX_PLAN,Yes,Mailed check,133.26413543612412,207.4,0
+Female,0,No,No,63.97128562060126,Yes,No,Fiber optic,No,No,No,No,No,Yes,Month-to-month,No,Bank transfer (automatic),141.76413543612412,947.3,1
+Female,0,Yes,Yes,57.97128562060126,Yes,Yes,DSL,No,No,No,No,No,No,NEW_FLEX_PLAN,Yes,Credit card (automatic),112.61413543612414,273.25,0
+Female,1,No,No,81.97128562060126,Yes,Yes,Fiber optic,Yes,Yes,Yes,No,No,No,Month-to-month,No,Credit card (automatic),155.36413543612414,2758.15,1
+Female,0,Yes,Yes,61.97128562060126,Yes,Yes,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,NEW_FLEX_PLAN,No,Credit card (automatic),89.76413543612414,225.55,0
+Female,0,Yes,Yes,84.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Two year,No,Credit card (automatic),83.46413543612414,641.35,0
+Female,0,Yes,Yes,81.97128562060126,Yes,No,DSL,Yes,No,No,Yes,No,Yes,NEW_FLEX_PLAN,No,Bank transfer (automatic),129.96413543612414,1923.5,0
+Male,0,No,No,60.97128562060126,No,No phone service,DSL,Yes,Yes,Yes,No,No,No,One year,No,Mailed check,103.21413543612414,373.0,0
+Female,0,No,No,63.97128562060126,No,No phone service,DSL,Yes,No,Yes,Yes,No,Yes,Two year,No,Mailed check,113.51413543612414,552.1,0
+Male,0,No,No,103.97128562060126,No,No phone service,DSL,Yes,Yes,Yes,Yes,Yes,Yes,Two year,No,Credit card (automatic),127.56413543612413,3334.95,0
+Male,0,Yes,Yes,85.97128562060126,Yes,Yes,Fiber optic,No,Yes,No,No,Yes,Yes,NEW_FLEX_PLAN,Yes,Bank transfer (automatic),161.36413543612414,3410.0,0
+Male,0,No,No,52.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Credit card (automatic),84.41413543612413,20.75,0
+Female,0,No,No,53.97128562060126,Yes,Yes,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Mailed check,138.56413543612413,136.05,0
+Male,0,No,No,54.97128562060126,Yes,No,DSL,No,No,No,No,No,Yes,Month-to-month,No,Mailed check,118.31413543612413,189.1,0
+Male,1,Yes,No,78.97128562060126,Yes,Yes,Fiber optic,No,Yes,Yes,No,No,Yes,Month-to-month,Yes,Electronic check,159.21413543612414,2510.2,1
+Female,1,Yes,No,84.97128562060126,Yes,Yes,Fiber optic,No,Yes,No,No,No,No,NEW_FLEX_PLAN,Yes,Bank transfer (automatic),144.26413543612412,2656.5,1
+Male,0,No,No,74.97128562060126,Yes,Yes,Fiber optic,No,No,No,No,No,No,NEW_FLEX_PLAN,Yes,Electronic check,138.61413543612414,1710.45,1
+Female,0,Yes,No,123.97128562060126,Yes,Yes,DSL,Yes,No,Yes,Yes,Yes,Yes,Two year,Yes,Bank transfer (automatic),148.56413543612413,6065.3,0
+Male,0,No,No,54.97128562060126,Yes,No,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Mailed check,133.96413543612414,220.4,0
+Female,0,No,No,53.97128562060126,Yes,No,DSL,No,Yes,No,No,No,No,NEW_FLEX_PLAN,No,Mailed check,112.86413543612414,103.7,0
+Male,1,Yes,No,72.97128562060126,Yes,No,DSL,Yes,Yes,No,No,No,Yes,Month-to-month,Yes,Bank transfer (automatic),128.61413543612414,1339.8,0
+Male,0,No,No,85.97128562060126,Yes,Yes,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Two year,No,Bank transfer (automatic),89.76413543612414,980.35,0
+Female,0,No,No,112.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,One year,No,Bank transfer (automatic),83.11413543612413,1336.35,0
+Female,0,Yes,Yes,69.97128562060126,Yes,Yes,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Two year,Yes,Credit card (automatic),88.31413543612413,471.35,0
+Male,0,Yes,Yes,111.97128562060126,Yes,No,DSL,Yes,Yes,Yes,Yes,No,No,One year,Yes,Bank transfer (automatic),129.51413543612412,3928.3,0
+Male,0,No,No,120.97128562060126,Yes,Yes,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Two year,No,Bank transfer (automatic),87.61413543612413,1713.1,0
+Female,0,Yes,Yes,52.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,NEW_FLEX_PLAN,Yes,Mailed check,83.06413543612413,19.4,0
+Male,0,No,No,54.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,NEW_FLEX_PLAN,No,Mailed check,83.51413543612414,64.55,1
+Female,0,Yes,Yes,64.97128562060126,Yes,Yes,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Two year,Yes,Bank transfer (automatic),88.66413543612413,332.5,0
+Female,0,Yes,Yes,101.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Two year,No,Credit card (automatic),84.21413543612414,1070.25,0
+Male,0,No,No,94.97128562060126,No,No phone service,DSL,No,No,Yes,Yes,No,Yes,One year,No,Electronic check,107.81413543612413,1931.3,0
+Female,0,No,No,55.97128562060126,Yes,No,Fiber optic,No,Yes,No,No,No,No,Month-to-month,Yes,Bank transfer (automatic),140.31413543612413,333.6,1
+Female,0,No,No,67.97128562060126,Yes,No,DSL,Yes,No,No,No,No,No,Month-to-month,Yes,Electronic check,113.81413543612413,762.25,1
+Male,0,No,No,53.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,One year,No,Credit card (automatic),82.96413543612414,28.3,1
+Male,0,No,No,52.97128562060126,Yes,No,DSL,No,No,No,No,No,No,NEW_FLEX_PLAN,No,Mailed check,109.26413543612414,45.6,0
+Male,0,No,No,52.97128562060126,Yes,No,Fiber optic,No,Yes,No,No,No,Yes,NEW_FLEX_PLAN,Yes,Electronic check,148.66413543612413,85.0,0
+Female,0,No,No,52.97128562060126,Yes,No,Fiber optic,No,No,Yes,No,Yes,No,Month-to-month,Yes,Credit card (automatic),149.21413543612414,85.55,1
+Female,1,Yes,No,123.97128562060126,Yes,Yes,DSL,Yes,Yes,Yes,Yes,Yes,Yes,Two year,Yes,Bank transfer (automatic),153.51413543612412,6697.35,0
+Female,0,No,No,96.97128562060126,Yes,Yes,Fiber optic,No,Yes,No,No,Yes,No,NEW_FLEX_PLAN,Yes,Credit card (automatic),152.96413543612414,4016.85,1
+Male,0,No,No,52.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Credit card (automatic),82.96413543612414,19.3,0
+Female,0,Yes,No,57.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Bank transfer (automatic),83.16413543612413,146.3,1
+Female,0,Yes,No,98.97128562060126,Yes,Yes,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,One year,No,Electronic check,90.56413543612413,1250.85,0
+Female,0,No,No,66.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,NEW_FLEX_PLAN,No,Bank transfer (automatic),83.06413543612413,289.3,1
+Male,1,Yes,No,120.97128562060126,No,No phone service,DSL,No,No,Yes,No,No,No,NEW_FLEX_PLAN,Yes,Credit card (automatic),93.46413543612414,2134.3,0
+Male,0,Yes,No,93.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Two year,No,Electronic check,83.91413543612413,835.5,0
+Male,0,No,Yes,113.97128562060126,Yes,No,DSL,Yes,Yes,No,No,No,No,NEW_FLEX_PLAN,No,Bank transfer (automatic),119.81413543612413,3487.95,0
+Male,0,No,No,53.97128562060126,No,No phone service,DSL,No,No,No,No,No,No,Month-to-month,Yes,Credit card (automatic),88.56413543612413,49.7,0
+Female,0,No,No,113.97128562060126,Yes,Yes,DSL,No,Yes,Yes,Yes,Yes,Yes,Two year,No,Bank transfer (automatic),148.16413543612413,5193.2,0
+Female,0,No,Yes,53.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,NEW_FLEX_PLAN,Yes,Electronic check,83.26413543612414,35.85,1
+Male,1,Yes,No,58.97128562060126,Yes,Yes,Fiber optic,No,No,Yes,No,Yes,Yes,Month-to-month,Yes,Electronic check,162.91413543612413,665.45,1
+Female,0,Yes,No,117.97128562060126,Yes,Yes,Fiber optic,No,Yes,Yes,Yes,No,No,One year,Yes,Bank transfer (automatic),154.21413543612414,6130.95,0
+Male,0,No,No,75.97128562060126,Yes,No,Fiber optic,No,No,No,No,Yes,Yes,Month-to-month,Yes,Electronic check,154.01413543612412,2238.5,1
+Female,0,No,No,75.97128562060126,Yes,Yes,Fiber optic,Yes,No,No,Yes,No,No,Month-to-month,Yes,Electronic check,148.01413543612412,1938.05,0
+Male,0,Yes,Yes,106.97128562060126,Yes,Yes,Fiber optic,No,No,No,No,No,Yes,Month-to-month,No,Bank transfer (automatic),149.16413543612413,4713.4,0
+Male,0,No,No,120.97128562060126,No,No phone service,DSL,Yes,Yes,No,Yes,Yes,Yes,Two year,Yes,Bank transfer (automatic),123.71413543612414,4176.7,0
+Female,1,No,No,54.97128562060126,Yes,No,Fiber optic,No,No,Yes,No,No,No,Month-to-month,No,Mailed check,138.71413543612414,202.9,0
+Female,0,Yes,No,77.97128562060126,Yes,No,DSL,No,Yes,No,Yes,Yes,Yes,Month-to-month,Yes,Electronic check,136.71413543612414,1959.5,0
+Female,0,No,No,53.97128562060126,Yes,No,DSL,No,No,No,No,No,No,Month-to-month,Yes,Mailed check,109.51413543612414,105.6,0
+Male,1,Yes,No,112.97128562060126,Yes,Yes,Fiber optic,No,Yes,No,Yes,No,No,NEW_FLEX_PLAN,Yes,Bank transfer (automatic),149.21413543612414,5251.75,0
+Male,0,Yes,No,58.97128562060126,No,No phone service,DSL,Yes,Yes,No,No,No,No,NEW_FLEX_PLAN,No,Mailed check,97.86413543612414,256.6,0
+Female,0,No,No,92.97128562060126,Yes,Yes,Fiber optic,Yes,Yes,Yes,Yes,Yes,No,Month-to-month,Yes,Electronic check,170.16413543612413,4282.4,0
+Female,0,No,No,103.97128562060126,Yes,No,DSL,Yes,No,No,No,No,No,NEW_FLEX_PLAN,Yes,Bank transfer (automatic),113.41413543612413,2535.55,0
+Female,0,Yes,No,118.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,NEW_FLEX_PLAN,No,Mailed check,83.31413543612413,1335.2,0
+Male,0,No,No,119.97128562060126,No,No phone service,DSL,No,No,Yes,No,No,Yes,Month-to-month,Yes,Bank transfer (automatic),103.56413543612413,2796.35,0
+Female,0,Yes,Yes,52.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Electronic check,82.91413543612413,19.25,0
+Female,0,No,No,78.97128562060126,Yes,No,DSL,Yes,Yes,No,No,No,No,Two year,No,Bank transfer (automatic),116.51413543612414,1498.65,0
+Female,0,No,No,100.97128562060126,Yes,No,DSL,Yes,Yes,Yes,Yes,No,No,Two year,No,Bank transfer (automatic),131.06413543612413,3306.85,0
+Male,0,No,No,52.97128562060126,Yes,No,DSL,No,No,Yes,No,No,No,Month-to-month,Yes,Electronic check,114.16413543612413,50.5,1
+Male,0,Yes,Yes,119.97128562060126,Yes,Yes,Fiber optic,Yes,Yes,Yes,Yes,Yes,Yes,Two year,Yes,Bank transfer (automatic),178.36413543612414,7849.85,0
+Female,0,Yes,Yes,65.97128562060126,Yes,Yes,Fiber optic,No,No,Yes,No,No,Yes,Month-to-month,Yes,Electronic check,150.91413543612413,1258.6,1
+Female,0,Yes,No,80.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Two year,Yes,Mailed check,83.21413543612414,521.8,0
+Female,0,No,No,53.97128562060126,Yes,No,Fiber optic,No,No,No,No,No,No,Month-to-month,No,Electronic check,134.01413543612412,139.25,0
+Male,0,Yes,No,122.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,One year,No,Electronic check,84.51413543612414,1539.75,0
+Male,0,Yes,No,53.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Mailed check,83.66413543612413,38.0,0
+Male,0,No,No,62.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,One year,No,Mailed check,83.16413543612413,226.8,0
+Male,0,Yes,Yes,114.97128562060126,No,No phone service,DSL,No,Yes,Yes,Yes,No,No,Two year,No,Bank transfer (automatic),103.01413543612414,2395.05,0
+Female,0,No,No,100.97128562060126,Yes,No,DSL,Yes,Yes,Yes,Yes,No,No,Two year,No,Bank transfer (automatic),131.06413543612413,3306.85,0
+Male,0,No,Yes,52.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,Yes,Mailed check,83.91413543612413,20.25,0
+Male,0,No,Yes,56.97128562060126,Yes,No,DSL,No,No,No,Yes,No,No,Month-to-month,Yes,Bank transfer (automatic),112.31413543612413,235.2,0
+Male,0,No,No,77.97128562060126,Yes,Yes,Fiber optic,No,No,Yes,No,Yes,Yes,NEW_FLEX_PLAN,Yes,Electronic check,162.01413543612412,2515.3,1
+Male,0,Yes,No,75.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Two year,No,Mailed check,83.41413543612413,483.15,0
+Female,0,Yes,No,94.97128562060126,No,No phone service,DSL,Yes,No,No,Yes,No,No,Month-to-month,No,Bank transfer (automatic),97.66413543612413,1505.35,0
+Female,0,Yes,Yes,96.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Two year,Yes,Bank transfer (automatic),83.66413543612413,886.4,0
+Male,0,No,No,56.97128562060126,Yes,No,Fiber optic,No,No,No,No,No,Yes,Month-to-month,No,Mailed check,142.41413543612413,426.35,0
+Male,0,No,No,57.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Bank transfer (automatic),83.81413543612413,130.5,0
+Female,0,Yes,Yes,112.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,NEW_FLEX_PLAN,No,Credit card (automatic),83.41413543612413,1311.6,0
+Female,0,Yes,Yes,103.97128562060126,Yes,No,Fiber optic,No,Yes,Yes,Yes,No,No,Month-to-month,No,Bank transfer (automatic),149.46413543612414,4433.3,0
+Female,0,No,No,112.97128562060126,Yes,Yes,Fiber optic,No,No,Yes,No,No,Yes,Month-to-month,No,Mailed check,152.86413543612414,5500.6,0
+Male,0,Yes,Yes,88.97128562060126,No,No phone service,DSL,Yes,No,Yes,Yes,No,No,One year,Yes,Electronic check,103.86413543612414,1525.35,0
+Male,1,No,No,84.97128562060126,Yes,Yes,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,One year,Yes,Bank transfer (automatic),88.56413543612413,847.8,0
+Male,1,No,No,120.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,NEW_FLEX_PLAN,No,Credit card (automatic),83.96413543612414,1356.3,0
+Female,0,Yes,Yes,115.97128562060126,Yes,Yes,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,One year,No,Mailed check,88.56413543612413,1595.5,0
+Male,0,Yes,Yes,58.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,One year,No,Mailed check,84.31413543612413,150.0,0
+Female,0,Yes,No,94.97128562060126,No,No phone service,DSL,Yes,No,No,Yes,No,No,Month-to-month,No,Bank transfer (automatic),97.66413543612413,1505.35,0
+Female,0,No,No,96.97128562060126,Yes,Yes,Fiber optic,No,Yes,No,No,Yes,No,NEW_FLEX_PLAN,Yes,Credit card (automatic),152.96413543612414,4016.85,1
+Female,0,Yes,No,121.97128562060126,Yes,Yes,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Two year,Yes,Bank transfer (automatic),89.66413543612413,2006.95,0
+Female,0,No,Yes,64.97128562060126,No,No phone service,DSL,No,Yes,No,No,No,No,NEW_FLEX_PLAN,No,Electronic check,93.81413543612413,382.2,0
+Female,0,No,No,52.97128562060126,Yes,No,Fiber optic,No,No,Yes,No,No,No,Month-to-month,No,Electronic check,140.01413543612412,76.35,1
+Female,0,Yes,Yes,74.97128562060126,Yes,Yes,Fiber optic,No,No,No,No,No,Yes,NEW_FLEX_PLAN,No,Electronic check,149.26413543612412,1868.4,0
+Female,0,No,Yes,70.97128562060126,Yes,No,DSL,Yes,Yes,Yes,No,No,No,Month-to-month,Yes,Electronic check,124.26413543612414,1297.8,0
+Male,0,No,No,55.97128562060126,No,No phone service,DSL,No,No,No,Yes,No,No,Month-to-month,No,Electronic check,94.16413543612413,118.4,0
+Female,0,No,No,52.97128562060126,Yes,No,DSL,No,No,No,No,No,No,Month-to-month,Yes,Mailed check,107.66413543612413,44.0,0
+Male,0,No,No,69.97128562060126,No,No phone service,DSL,No,No,No,No,No,No,Month-to-month,No,Mailed check,88.81413543612413,476.8,0
+Male,0,Yes,Yes,64.97128562060126,No,No phone service,DSL,Yes,Yes,No,Yes,No,No,Two year,No,Mailed check,104.21413543612414,590.35,0
+Female,0,No,No,66.97128562060126,Yes,Yes,DSL,No,No,No,No,No,No,Month-to-month,Yes,Mailed check,112.46413543612414,720.1,0
+Male,0,Yes,No,54.97128562060126,No,No phone service,DSL,No,Yes,No,No,No,No,NEW_FLEX_PLAN,No,Credit card (automatic),93.46413543612414,94.4,0
+Female,0,Yes,Yes,64.97128562060126,Yes,Yes,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,NEW_FLEX_PLAN,Yes,Bank transfer (automatic),88.66413543612413,332.5,0
+Female,0,Yes,No,73.97128562060126,Yes,No,Fiber optic,No,No,No,No,Yes,No,Month-to-month,Yes,Credit card (automatic),143.66413543612413,1706.45,0
+Male,0,No,No,90.97128562060126,Yes,Yes,DSL,No,No,No,Yes,No,No,Two year,Yes,Credit card (automatic),117.51413543612414,2200.7,0
+Male,0,Yes,Yes,68.97128562060126,No,No phone service,DSL,Yes,No,Yes,No,Yes,No,One year,No,Credit card (automatic),108.11413543612414,792.15,0
+Male,0,Yes,No,73.97128562060126,Yes,No,Fiber optic,Yes,Yes,No,Yes,Yes,Yes,Month-to-month,Yes,Electronic check,168.26413543612412,2180.55,0
+Male,0,Yes,No,74.97128562060126,Yes,Yes,Fiber optic,No,Yes,Yes,No,No,No,Month-to-month,No,Electronic check,147.91413543612413,1968.1,0
+Female,0,Yes,No,98.97128562060126,Yes,Yes,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,NEW_FLEX_PLAN,No,Electronic check,90.56413543612413,1250.85,0
+Male,0,Yes,No,89.97128562060126,Yes,Yes,DSL,No,No,Yes,Yes,No,Yes,One year,No,Credit card (automatic),132.66413543612413,2669.45,0
+Female,0,No,No,58.97128562060126,Yes,No,DSL,Yes,No,No,No,No,Yes,One year,Yes,Electronic check,122.76413543612414,369.25,0
+Female,0,No,No,118.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,One year,No,Electronic check,84.21413543612414,1343.4,0
+Male,0,No,No,70.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Two year,Yes,Mailed check,83.61413543612413,373.5,0
+Female,0,Yes,Yes,120.97128562060126,Yes,Yes,DSL,Yes,No,Yes,Yes,No,No,NEW_FLEX_PLAN,Yes,Credit card (automatic),127.81413543612413,4254.1,0
+Male,0,Yes,Yes,122.97128562060126,Yes,Yes,Fiber optic,Yes,No,No,No,Yes,Yes,NEW_FLEX_PLAN,Yes,Electronic check,160.86413543612414,6910.3,0
+Female,0,No,No,61.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,Yes,Mailed check,84.56413543612413,247.0,0
+Female,0,Yes,No,111.97128562060126,Yes,No,DSL,Yes,Yes,No,Yes,No,No,NEW_FLEX_PLAN,No,Bank transfer (automatic),123.51413543612414,3483.45,0
+Female,0,No,No,92.97128562060126,Yes,Yes,Fiber optic,No,Yes,Yes,No,Yes,Yes,Month-to-month,Yes,Electronic check,169.96413543612414,4443.45,1
+Female,0,Yes,Yes,52.97128562060126,Yes,No,DSL,No,No,Yes,No,No,No,Month-to-month,No,Mailed check,114.11413543612414,50.45,1
+Male,0,No,Yes,70.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Two year,No,Credit card (automatic),84.51413543612414,467.5,0
+Female,0,No,No,53.97128562060126,Yes,No,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Electronic check,134.61413543612414,137.95,1
+Female,0,No,No,108.97128562060126,Yes,No,Fiber optic,No,No,Yes,No,Yes,Yes,Two year,Yes,Electronic check,158.91413543612413,5464.65,1
+Male,0,No,No,86.97128562060126,Yes,Yes,Fiber optic,No,No,No,No,Yes,No,Month-to-month,No,Electronic check,146.81413543612413,2848.45,0
+Male,0,No,No,63.97128562060126,Yes,Yes,Fiber optic,No,No,No,No,Yes,Yes,Month-to-month,No,Electronic check,158.21413543612414,1173.55,0
+Male,0,Yes,Yes,112.97128562060126,Yes,Yes,Fiber optic,No,No,Yes,No,Yes,Yes,One year,Yes,Electronic check,163.56413543612413,6241.35,0
+Male,0,Yes,No,123.97128562060126,Yes,Yes,Fiber optic,No,Yes,No,No,Yes,Yes,Two year,Yes,Electronic check,163.06413543612413,7285.7,0
+Male,0,No,No,53.97128562060126,Yes,No,Fiber optic,No,No,No,No,No,No,Month-to-month,Yes,Credit card (automatic),133.46413543612414,134.7,1
+Male,1,Yes,Yes,117.97128562060126,Yes,Yes,Fiber optic,No,No,Yes,No,Yes,Yes,Month-to-month,Yes,Credit card (automatic),163.16413543612413,6822.15,1
+Male,0,Yes,No,53.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Mailed check,83.66413543612413,38.0,0
+Male,0,Yes,Yes,71.97128562060126,No,No phone service,DSL,Yes,No,Yes,Yes,No,No,Two year,Yes,Credit card (automatic),103.06413543612413,825.4,0
+Female,0,No,No,54.97128562060126,Yes,No,DSL,No,No,No,No,Yes,No,NEW_FLEX_PLAN,Yes,Electronic check,117.86413543612414,140.4,0
+Male,0,No,No,52.97128562060126,Yes,No,DSL,No,No,No,No,No,No,Month-to-month,Yes,Mailed check,109.51413543612414,45.85,1
+Female,0,No,No,52.97128562060126,Yes,Yes,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,Yes,Mailed check,89.41413543612413,25.75,0
+Male,1,Yes,No,67.97128562060126,Yes,No,DSL,Yes,Yes,No,No,No,No,NEW_FLEX_PLAN,Yes,Bank transfer (automatic),118.21413543612414,825.1,0
+Female,0,No,No,71.97128562060126,Yes,Yes,Fiber optic,Yes,No,No,No,Yes,No,Month-to-month,Yes,Bank transfer (automatic),152.76413543612412,1879.25,0
+Male,0,Yes,Yes,104.97128562060126,Yes,Yes,Fiber optic,No,Yes,Yes,No,Yes,Yes,One year,Yes,Electronic check,168.91413543612413,5576.3,0
+Male,0,No,No,52.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Month-to-month,No,Mailed check,83.06413543612413,19.4,1
+Female,0,Yes,Yes,108.97128562060126,Yes,No,DSL,Yes,Yes,No,No,No,No,One year,No,Electronic check,117.11413543612414,3053.0,0
+Female,0,No,No,52.97128562060126,Yes,No,Fiber optic,No,No,Yes,No,Yes,No,NEW_FLEX_PLAN,Yes,Credit card (automatic),149.21413543612414,85.55,1
+Male,0,No,No,55.97128562060126,Yes,Yes,Fiber optic,No,No,No,No,No,No,NEW_FLEX_PLAN,Yes,Electronic check,139.71413543612414,318.9,1
+Female,0,No,No,79.97128562060126,Yes,No,DSL,Yes,Yes,No,Yes,No,No,One year,Yes,Electronic check,123.56413543612413,1654.7,0
+Female,0,No,No,52.97128562060126,Yes,No,DSL,No,No,No,Yes,No,No,Month-to-month,Yes,Electronic check,115.86413543612414,52.2,1
+Male,0,Yes,Yes,63.97128562060126,Yes,No,DSL,No,No,No,No,Yes,No,Month-to-month,Yes,Mailed check,119.96413543612414,628.65,0
+Female,0,Yes,No,123.97128562060126,Yes,Yes,DSL,Yes,Yes,Yes,No,Yes,Yes,Two year,Yes,Credit card (automatic),146.31413543612413,5919.35,0
+Male,0,No,Yes,73.97128562060126,Yes,Yes,Fiber optic,No,Yes,No,No,Yes,No,Month-to-month,Yes,Credit card (automatic),152.76413543612412,1949.4,0
+Male,0,Yes,No,85.97128562060126,Yes,Yes,Fiber optic,No,No,Yes,No,Yes,Yes,Month-to-month,No,Electronic check,164.51413543612412,3527.3,0
+Female,0,Yes,Yes,112.97128562060126,Yes,Yes,DSL,Yes,Yes,Yes,Yes,Yes,Yes,Two year,No,Mailed check,151.76413543612412,5526.75,0
+Female,1,No,No,52.97128562060126,No,No phone service,DSL,No,No,No,No,No,No,Month-to-month,Yes,Mailed check,89.36413543612413,25.7,1
+Female,0,Yes,Yes,103.97128562060126,Yes,Yes,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,Two year,Yes,Bank transfer (automatic),88.71413543612414,1270.25,0
+Female,0,No,No,92.97128562060126,Yes,No,DSL,No,No,No,Yes,No,No,One year,No,Bank transfer (automatic),113.71413543612414,2029.05,0
+Male,0,No,No,111.97128562060126,Yes,No,DSL,Yes,No,Yes,Yes,Yes,Yes,One year,No,Mailed check,142.66413543612413,4801.1,0
+Female,0,Yes,No,88.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,NEW_FLEX_PLAN,No,Bank transfer (automatic),83.16413543612413,805.2,0
+Female,0,No,No,52.97128562060126,Yes,No,DSL,No,No,No,No,No,No,Month-to-month,No,Mailed check,108.41413543612413,44.75,0
+Male,1,Yes,No,97.97128562060126,Yes,Yes,Fiber optic,No,No,Yes,No,Yes,Yes,NEW_FLEX_PLAN,Yes,Electronic check,162.51413543612412,4564.9,0
+Male,0,Yes,Yes,112.97128562060126,Yes,No,No,No internet service,No internet service,No internet service,No internet service,No internet service,No internet service,One year,No,Mailed check,84.06413543612413,1226.45,0
+Female,0,No,No,113.97128562060126,Yes,Yes,DSL,No,Yes,Yes,Yes,Yes,Yes,Two year,No,Bank transfer (automatic),148.16413543612413,5193.2,0

@@ -1,0 +1,343 @@
+{
+  "row_count": 4930,
+  "column_count": 20,
+  "total_missing_cells": 0,
+  "overall_missing_rate": 0.0,
+  "duplicate_rows": 9,
+  "duplicate_rate": 0.0018255578093306288,
+  "features": {
+    "tenure": {
+      "type": "numerical",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "count": 4930,
+      "mean": 32.47119675456389,
+      "std": 24.64634996163026,
+      "min": 0.0,
+      "max": 72.0,
+      "median": 29.0,
+      "q25": 9.0,
+      "q75": 56.0,
+      "iqr": 47.0,
+      "outlier_count": 0,
+      "outlier_rate": 0.0,
+      "bin_edges": [
+        0.0,
+        2.0,
+        6.0,
+        12.0,
+        19.600000000000136,
+        29.0,
+        40.0,
+        50.29999999999973,
+        61.0,
+        69.0,
+        72.0
+      ]
+    },
+    "MonthlyCharges": {
+      "type": "numerical",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "count": 4930,
+      "mean": 64.95008113590264,
+      "std": 30.243673737992296,
+      "min": 18.4,
+      "max": 118.75,
+      "median": 70.57499999999999,
+      "q25": 35.5,
+      "q75": 90.05,
+      "iqr": 54.55,
+      "outlier_count": 0,
+      "outlier_rate": 0.0,
+      "bin_edges": [
+        18.4,
+        20.05,
+        25.1,
+        45.55,
+        58.93000000000001,
+        70.57499999999999,
+        79.35,
+        85.76499999999999,
+        94.45,
+        103.25,
+        118.75
+      ]
+    },
+    "TotalCharges": {
+      "type": "numerical",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "count": 4930,
+      "mean": 2301.797565922921,
+      "std": 2292.5664455233436,
+      "min": 0.0,
+      "max": 8684.8,
+      "median": 1387.4,
+      "q25": 396.32500000000005,
+      "q75": 3857.0125,
+      "iqr": 3460.6875,
+      "outlier_count": 0,
+      "outlier_rate": 0.0,
+      "bin_edges": [
+        0.0,
+        84.5,
+        267.35,
+        544.9700000000001,
+        929.26,
+        1387.4,
+        2083.0099999999998,
+        3218.2799999999993,
+        4520.410000000002,
+        6038.965000000002,
+        8684.8
+      ]
+    },
+    "gender": {
+      "type": "categorical",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "cardinality": 2,
+      "unique_values": [
+        "Female",
+        "Male"
+      ],
+      "frequencies": {
+        "Male": 0.5026369168356998,
+        "Female": 0.4973630831643002
+      }
+    },
+    "SeniorCitizen": {
+      "type": "categorical",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "cardinality": 2,
+      "unique_values": [
+        "0",
+        "1"
+      ],
+      "frequencies": {
+        "0": 0.8389452332657201,
+        "1": 0.16105476673427993
+      }
+    },
+    "Partner": {
+      "type": "categorical",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "cardinality": 2,
+      "unique_values": [
+        "No",
+        "Yes"
+      ],
+      "frequencies": {
+        "No": 0.5188640973630831,
+        "Yes": 0.48113590263691686
+      }
+    },
+    "Dependents": {
+      "type": "categorical",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "cardinality": 2,
+      "unique_values": [
+        "No",
+        "Yes"
+      ],
+      "frequencies": {
+        "No": 0.7024340770791075,
+        "Yes": 0.2975659229208925
+      }
+    },
+    "PhoneService": {
+      "type": "categorical",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "cardinality": 2,
+      "unique_values": [
+        "Yes",
+        "No"
+      ],
+      "frequencies": {
+        "Yes": 0.8993914807302231,
+        "No": 0.10060851926977687
+      }
+    },
+    "MultipleLines": {
+      "type": "categorical",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "cardinality": 3,
+      "unique_values": [
+        "No",
+        "Yes",
+        "No phone service"
+      ],
+      "frequencies": {
+        "No": 0.47606490872210955,
+        "Yes": 0.4233265720081136,
+        "No phone service": 0.10060851926977687
+      }
+    },
+    "InternetService": {
+      "type": "categorical",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "cardinality": 3,
+      "unique_values": [
+        "Fiber optic",
+        "DSL",
+        "No"
+      ],
+      "frequencies": {
+        "Fiber optic": 0.4415821501014199,
+        "DSL": 0.34178498985801214,
+        "No": 0.21663286004056795
+      }
+    },
+    "OnlineSecurity": {
+      "type": "categorical",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "cardinality": 3,
+      "unique_values": [
+        "No",
+        "Yes",
+        "No internet service"
+      ],
+      "frequencies": {
+        "No": 0.4947261663286004,
+        "Yes": 0.28864097363083163,
+        "No internet service": 0.21663286004056795
+      }
+    },
+    "OnlineBackup": {
+      "type": "categorical",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "cardinality": 3,
+      "unique_values": [
+        "No",
+        "No internet service",
+        "Yes"
+      ],
+      "frequencies": {
+        "No": 0.43448275862068964,
+        "Yes": 0.3488843813387424,
+        "No internet service": 0.21663286004056795
+      }
+    },
+    "DeviceProtection": {
+      "type": "categorical",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "cardinality": 3,
+      "unique_values": [
+        "No",
+        "Yes",
+        "No internet service"
+      ],
+      "frequencies": {
+        "No": 0.4340770791075051,
+        "Yes": 0.349290060851927,
+        "No internet service": 0.21663286004056795
+      }
+    },
+    "TechSupport": {
+      "type": "categorical",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "cardinality": 3,
+      "unique_values": [
+        "No",
+        "Yes",
+        "No internet service"
+      ],
+      "frequencies": {
+        "No": 0.48904665314401624,
+        "Yes": 0.29432048681541584,
+        "No internet service": 0.21663286004056795
+      }
+    },
+    "StreamingTV": {
+      "type": "categorical",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "cardinality": 3,
+      "unique_values": [
+        "Yes",
+        "No",
+        "No internet service"
+      ],
+      "frequencies": {
+        "Yes": 0.3937119675456389,
+        "No": 0.3896551724137931,
+        "No internet service": 0.21663286004056795
+      }
+    },
+    "StreamingMovies": {
+      "type": "categorical",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "cardinality": 3,
+      "unique_values": [
+        "No",
+        "Yes",
+        "No internet service"
+      ],
+      "frequencies": {
+        "No": 0.39168356997971604,
+        "Yes": 0.39168356997971604,
+        "No internet service": 0.21663286004056795
+      }
+    },
+    "Contract": {
+      "type": "categorical",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "cardinality": 3,
+      "unique_values": [
+        "Month-to-month",
+        "One year",
+        "Two year"
+      ],
+      "frequencies": {
+        "Month-to-month": 0.5484787018255578,
+        "Two year": 0.24178498985801217,
+        "One year": 0.20973630831643003
+      }
+    },
+    "PaperlessBilling": {
+      "type": "categorical",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "cardinality": 2,
+      "unique_values": [
+        "No",
+        "Yes"
+      ],
+      "frequencies": {
+        "Yes": 0.592292089249493,
+        "No": 0.4077079107505071
+      }
+    },
+    "PaymentMethod": {
+      "type": "categorical",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "cardinality": 4,
+      "unique_values": [
+        "Electronic check",
+        "Credit card (automatic)",
+        "Bank transfer (automatic)",
+        "Mailed check"
+      ],
+      "frequencies": {
+        "Electronic check": 0.3354969574036511,
+        "Mailed check": 0.227789046653144,
+        "Bank transfer (automatic)": 0.22028397565922922,
+        "Credit card (automatic)": 0.21643002028397565
+      }
+    }
+  }
+}
