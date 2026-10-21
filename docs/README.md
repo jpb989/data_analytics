@@ -17,6 +17,14 @@ This directory houses detailed, step-by-step engineering and research documentat
 
 ---
 
+### Module & Folder-Wise Technical Documentation
+
+For deep dives into individual code packages, modules, classes, and parameter setups:
+
+- 🔬 [**`src/simulation/` Deep Dive Guide**](folder_readmes/simulation.md): Exhaustive technical specification of `DataPerturber`, `ProductionDriftSimulator`, mathematical anomaly formulas, and the 20-batch temporal progression.
+
+---
+
 ### Core Pipeline Architecture
 
 ```mermaid
