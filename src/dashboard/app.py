@@ -196,7 +196,13 @@ def main():
         feat_to_perturb = st.sidebar.selectbox("Target Feature to Perturb", num_cols + cat_cols)
         perturb_type = st.sidebar.selectbox(
             "Perturbation Type",
-            ["Covariate Mean Shift", "Missingness (MCAR)", "Outlier Explosion", "Unseen Novel Categories"],
+            [
+                "Covariate Mean Shift",
+                "Missingness (MCAR)",
+                "Conditional Missingness (MAR)",
+                "Outlier Explosion",
+                "Unseen Novel Categories",
+            ],
         )
 
         current_batch_df = base_sample.copy()
@@ -209,6 +215,20 @@ def main():
         elif perturb_type == "Missingness (MCAR)":
             m_rate = st.sidebar.slider("Missingness Injection Rate", 0.0, 0.70, 0.25, 0.05)
             current_batch_df = perturber.inject_mcar(current_batch_df, [feat_to_perturb], missing_rate=m_rate)
+        elif perturb_type == "Conditional Missingness (MAR)":
+            cond_col = st.sidebar.selectbox(
+                "Conditioning Feature",
+                [c for c in num_cols if c != feat_to_perturb] or num_cols,
+            )
+            q_thresh = st.sidebar.slider("Conditioning Quantile Threshold", 0.10, 0.90, 0.50, 0.05)
+            mar_rate = st.sidebar.slider("Conditional Missingness Rate", 0.05, 0.80, 0.35, 0.05)
+            current_batch_df = perturber.inject_mar(
+                current_batch_df,
+                target_col=feat_to_perturb,
+                condition_col=cond_col,
+                condition_quantile=q_thresh,
+                missing_rate=mar_rate,
+            )
         elif perturb_type == "Outlier Explosion":
             mult = st.sidebar.slider("Outlier Multiplier", 2.0, 10.0, 4.0, 1.0)
             if feat_to_perturb in num_cols:

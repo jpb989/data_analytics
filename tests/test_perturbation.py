@@ -37,3 +37,32 @@ def test_covariate_shift():
     expected_shift = 1.5 * orig_std
     actual_shift = new_mean - orig_mean
     assert abs(actual_shift - expected_shift) < 0.1, f"Expected shift ~{expected_shift}, got {actual_shift}"
+
+
+def test_mar_conditional_missingness():
+    """Verify that MAR missingness only affects records exceeding the condition threshold."""
+    df = pd.DataFrame({
+        "target": np.arange(1000, dtype=float),
+        "condition": np.linspace(0, 100, 1000),
+    })
+
+    perturber = DataPerturber(random_state=42)
+    corrupted = perturber.inject_mar(
+        df,
+        target_col="target",
+        condition_col="condition",
+        condition_quantile=0.5,
+        missing_rate=0.40,
+    )
+
+    threshold = df["condition"].quantile(0.5)
+    below_mask = df["condition"] < threshold
+    above_mask = df["condition"] >= threshold
+
+    # Rows below median must have zero missingness
+    assert corrupted.loc[below_mask, "target"].isnull().sum() == 0, "Below threshold rows must not be missing"
+
+    # Rows above median should have ~40% missingness
+    above_missing_rate = corrupted.loc[above_mask, "target"].isnull().mean()
+    assert abs(above_missing_rate - 0.40) < 0.05, f"Expected ~0.40 missing rate above threshold, got {above_missing_rate}"
+

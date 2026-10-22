@@ -80,15 +80,24 @@ class ProductionDriftSimulator:
         return scenario
 
     def build_scenario_quality_failure(self, num_batches: int = 5) -> List[Tuple[str, pd.DataFrame]]:
-        """Scenario D: Pipeline data quality failure (missingness spike and outlier explosion)."""
+        """Scenario D: Pipeline data quality failure (MAR/MCAR missingness spike and outlier explosion)."""
         batches = self.generate_batches(num_batches)
         scenario = []
         for i, df in enumerate(batches):
             b_df = df.copy()
             if i >= 1:
                 missing_rate = 0.10 * i  # 10%, 20%, 30%, 40%
+                # Invalidate TotalCharges via MAR conditioned on MonthlyCharges >= median
+                b_df = self.perturber.inject_mar(
+                    b_df,
+                    target_col="TotalCharges",
+                    condition_col="MonthlyCharges",
+                    condition_quantile=0.5,
+                    missing_rate=min(0.85, missing_rate * 1.5),
+                )
+                # Invalidate tenure via MCAR
                 b_df = self.perturber.inject_mcar(
-                    b_df, ["TotalCharges", "tenure", "MonthlyCharges"], missing_rate=missing_rate
+                    b_df, ["tenure"], missing_rate=missing_rate
                 )
             if i >= 2:
                 # Extreme outlier contamination in TotalCharges
