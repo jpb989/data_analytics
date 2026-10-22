@@ -9,6 +9,13 @@ Streamlit application providing:
 """
 
 from pathlib import Path
+import sys
+
+# Ensure project root is in sys.path
+project_root = Path(__file__).resolve().parent.parent.parent
+if str(project_root) not in sys.path:
+    sys.path.insert(0, str(project_root))
+
 import json
 import joblib
 import numpy as np
@@ -16,6 +23,8 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
+
+from src.data.preprocessor import DataPreprocessor
 
 # Configure page layout
 st.set_page_config(
@@ -98,7 +107,7 @@ def load_framework_assets():
         with open(corr_study_path, "r", encoding="utf-8") as f:
             corr_study = json.load(f)
 
-    preprocessor = joblib.load(root / "data" / "reference" / "preprocessor.joblib")
+    preprocessor = DataPreprocessor.load(root / "data" / "reference" / "preprocessor.joblib")
     train_df = pd.read_csv(root / "data" / "processed" / "train.csv")
     test_df = pd.read_csv(root / "data" / "processed" / "test.csv")
 
@@ -453,19 +462,19 @@ def main():
                 st.markdown("#### False Alarm Reduction")
                 for m_k, stats in corr_data.items():
                     st.write(
-                        f"- **{m_k.replace('_', ' ').title()}:** {stats['false_alarm_rate_pct']}% of pure statistical drift alerts were false alarms ($\Delta F_1 < 2\%$). Our framework successfully suppressed these."
+                        f"- **{m_k.replace('_', ' ').title()}:** {stats['false_alarm_rate_pct']}% of pure statistical drift alerts were false alarms (Delta F1 < 2%). Our framework successfully suppressed these."
                     )
             with r_col2:
                 st.markdown("#### Rank Correlation (Statistical Drift vs. Model Degradation)")
                 for m_k, stats in corr_data.items():
-                    st.write(f"- **{m_k.replace('_', ' ').title()}:** Spearman $\\rho = {stats['spearman_rho']:.4f}$ (p-value: `{stats['spearman_pvalue']:.4e}`)")
+                    st.write(f"- **{m_k.replace('_', ' ').title()}:** Spearman rho = {stats['spearman_rho']:.4f} (p-value: `{stats['spearman_pvalue']:.4e}`)")
 
             st.markdown("---")
             st.markdown(
                 """
                 ### Core Research Answers (from Proposal Deck):
-                1. **RQ1 (Impact Disparity):** Missingness and covariate shift in top features (`Contract`, `tenure`) trigger severe performance collapse ($\Delta F_1 > 15\%$), while equal or greater drift in low-importance features (`gender`, `PhoneService`) produces negligible effect ($\Delta F_1 < 1.5\%$).
-                2. **RQ2 (Diagnostic Validity):** Raw statistical drift metrics (PSI, KS-Test) correlate only moderately with model degradation ($\rho \approx 0.14 - 0.35$). Tree models (XGBoost, Random Forest) are significantly more robust to unscaled drift than linear models.
+                1. **RQ1 (Impact Disparity):** Missingness and covariate shift in top features (`Contract`, `tenure`) trigger severe performance collapse (Delta F1 > 15%), while equal or greater drift in low-importance features (`gender`, `PhoneService`) produces negligible effect (Delta F1 < 1.5%).
+                2. **RQ2 (Diagnostic Validity):** Raw statistical drift metrics (PSI, KS-Test) correlate only moderately with model degradation (rho ~ 0.14 - 0.35). Tree models (XGBoost, Random Forest) are significantly more robust to unscaled drift than linear models.
                 3. **RQ3 (False Alarm Mitigation):** Incorporating feature importance and composite risk scoring reduces false retraining alarms by up to **50%**, saving significant operational and computational costs.
                 """
             )

@@ -90,13 +90,28 @@ class DataPreprocessor:
     def save(self, filepath: Path) -> None:
         """Serialize fitted preprocessor to disk."""
         filepath.parent.mkdir(parents=True, exist_ok=True)
-        joblib.dump(self, filepath)
+        payload = {
+            "pipeline": self.pipeline,
+            "feature_names_": self.feature_names_,
+            "numerical_features": self.numerical_features,
+            "categorical_features": self.categorical_features,
+        }
+        joblib.dump(payload, filepath)
         print(f"[Preprocessor] Saved preprocessor pipeline to: {filepath}")
 
     @classmethod
     def load(cls, filepath: Path) -> "DataPreprocessor":
         """Load serialized preprocessor pipeline."""
-        return joblib.load(filepath)
+        payload = joblib.load(filepath)
+        if isinstance(payload, dict):
+            obj = cls(
+                numerical_features=payload["numerical_features"],
+                categorical_features=payload["categorical_features"],
+            )
+            obj.pipeline = payload["pipeline"]
+            obj.feature_names_ = payload["feature_names_"]
+            return obj
+        return payload
 
 
 def run_preprocessor_pipeline() -> Tuple[DataPreprocessor, np.ndarray, np.ndarray, np.ndarray]:
