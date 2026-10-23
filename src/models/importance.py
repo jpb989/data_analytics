@@ -138,14 +138,28 @@ def extract_feature_importance() -> Dict[str, dict]:
             "shap_importance": lr_agg,
         }
 
-    # Compute Ensemble Consensus Importance (Average across models)
+    # Compute Ensemble Consensus Importance (Weighted average across models)
+    # Weights reflect model benchmark accuracy and attribution rigor:
+    # - XGBoost (50%): Gradient boosting with axiomatic TreeSHAP attributions
+    # - Random Forest (30%): Bagged ensemble with non-linear Gini impurity
+    # - Logistic Regression (20%): Standardized linear main-effect coefficients
+    model_weights = {
+        "xgboost": 0.50,
+        "random_forest": 0.30,
+        "logistic_regression": 0.20,
+    }
+
     all_raw_features = num_cols + cat_cols
     consensus: Dict[str, float] = {}
     for feat in all_raw_features:
-        scores = []
-        for m_name, meta in importance_summary.items():
-            scores.append(meta.get("shap_importance", {}).get(feat, 0.0))
-        consensus[feat] = round(float(np.mean(scores)), 4) if scores else 0.0
+        weighted_score = 0.0
+        total_weight = 0.0
+        for m_name, w in model_weights.items():
+            if m_name in importance_summary:
+                score = importance_summary[m_name].get("shap_importance", {}).get(feat, 0.0)
+                weighted_score += w * score
+                total_weight += w
+        consensus[feat] = round(float(weighted_score / total_weight), 4) if total_weight > 0 else 0.0
 
     consensus_sorted = dict(sorted(consensus.items(), key=lambda item: item[1], reverse=True))
     importance_summary["consensus"] = consensus_sorted
